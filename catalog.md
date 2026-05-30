@@ -28,6 +28,7 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [BRAIN Initiative Data Archives](https://braininitiative.nih.gov/research/data-science-and-informatics/informatics-program) | directory of NIH BRAIN archives | n/a | n/a | open | [link](https://braininitiative.nih.gov/research/data-science-and-informatics/informatics-program) |
 | [OpenNeuroPET](https://openneuropet.github.io/) | human/animal PET | various (PET-BIDS) | varies | open | [link](https://openneuro.org/search/modality/pet) |
 | [DABI](https://dabi.loni.usc.edu/) | invasive neurophysiology | various | varies | mixed | [link](https://dabi.loni.usc.edu/search) |
+| [Canadian Open Neuroscience Platform (CONP)](https://conp.ca/) | multi-species / cross-modal | DataLad / BIDS / various | varies | open (some free account) | [link](https://portal.conp.ca/datasets) |
 
 ## Human — MRI / fMRI / diffusion
 
@@ -54,6 +55,11 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [Courtois NeuroMod](https://www.cneuromod.ca/) | human | fMRI (naturalistic/task) / sMRI | BIDS (NIfTI), DataLad | large (deep-sampling) | mixed | [link](https://docs.cneuromod.ca/en/latest/ACCESS.html) |
 | [Generic Object Decoding (Kamitani)](https://openneuro.org/datasets/ds001246) | human | fMRI (task, vision) | BIDS (NIfTI) | ~20 GB | open | [link](https://openneuro.org/datasets/ds001246) |
 | [Healthy Brain Network MRI](https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/) | human | fMRI (rest/movie) / dMRI / sMRI | BIDS (NIfTI) | very large | mixed | [link](https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html) |
+| [UCLA CNP (ds000030)](https://openneuro.org/datasets/ds000030) | human | MRI / fMRI (psychiatric) | BIDS (NIfTI) | ~85 GB | open (CC0) | [link](https://openneuro.org/datasets/ds000030) |
+| [Transdiagnostic Connectome Project (ds005237)](https://openneuro.org/datasets/ds005237) | human | MRI / fMRI | BIDS (NIfTI) | ~1 TB | open (CC0) | [link](https://openneuro.org/datasets/ds005237) |
+| [NIMH Healthy Research Volunteer (ds005752)](https://openneuro.org/datasets/ds005752) | human | MRI / fMRI / MEG | BIDS (NIfTI) | ~712 GB | open (CC0) | [link](https://openneuro.org/datasets/ds005752) |
+| [MICA-MICs](https://portal.conp.ca/dataset?id=projects/mica-mics) | human | MRI / connectomes | BIDS (NIfTI) | ~70 GB | open (CC0) | [link](https://portal.conp.ca/dataset?id=projects/mica-mics) |
+| [BrainLat](https://www.synapse.org/Synapse:syn51549340) | human | MRI / fMRI / dMRI / EEG (clinical) | NIfTI, EEG, CSV | ~780 participants | free Synapse account | [link](https://doi.org/10.7303/syn51549340) |
 
 ## Human — EEG
 
@@ -75,6 +81,16 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [Nencki-Symfonia EEG/ERP](https://openneuro.org/datasets/ds004621) | human | EEG / ERP | BIDS (EEG) | ~83 GB | open | [link](https://openneuro.org/datasets/ds004621) |
 | [BCI Competition IV](https://www.bbci.de/competition/iv/) | human | EEG / MEG / ECoG (BCI) | .mat / GDF | varies | free-registration | [link](https://www.bbci.de/competition/iv/) |
 | [SRM Resting-state EEG](https://openneuro.org/datasets/ds003775) | human | EEG | BIDS (EEG) | ~4.8 GB | open | [link](https://openneuro.org/datasets/ds003775) |
+| [Cuban Human Brain Mapping Project](https://chbmp-open.loris.ca/) | human | EEG / MRI / cognition | EDF / NIfTI / CSV | 282 participants | open (LORIS/Synapse/CONP) | [link](https://github.com/conpdatasets/CHBMP) |
+| [TDBRAIN](https://brainclinics.com/resources/) | human | EEG / ECG (clinical) | BIDS, raw EEG | ~120 GB, 1,274 subj | free-registration + DUA | [link](https://brainclinics.com/resources/) |
+| [ZuCo](https://osf.io/q3zws/) | human | EEG + eye-tracking (reading) | MATLAB, EDF | varies | open (OSF) | [link](https://osf.io/q3zws/) |
+| [OpenMIIR](https://github.com/sstober/openmiir) | human | EEG (music imagery) | FIF (MNE) | ~7 GB | open (PDDL) | [link](https://github.com/sstober/openmiir) |
+| [EEG Alzheimer's & FTD (ds004504)](https://openneuro.org/datasets/ds004504) | human | EEG | BIDS (EEG) | ~2.8 GB | open (CC0) | [link](https://openneuro.org/datasets/ds004504) |
+| [Inner Speech (ds003626)](https://openneuro.org/datasets/ds003626) | human | EEG | BIDS (EEG) | ~20 GB | open (CC0) | [link](https://openneuro.org/datasets/ds003626) |
+| [SeizeIT2 (ds005873)](https://openneuro.org/datasets/ds005873) | human | EEG (seizure) | BIDS (EEG) | ~48 GB | open (CC0) | [link](https://openneuro.org/datasets/ds005873) |
+| [Bitbrain BOAS Sleep (ds005555)](https://openneuro.org/datasets/ds005555) | human | EEG / PSG | BIDS (EEG) | ~36 GB | open (CC0) | [link](https://openneuro.org/datasets/ds005555) |
+| [NATVIEW EEG-fMRI](https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html) | human | EEG + fMRI | BIDS | varies (22 subj) | open (CC BY 4.0) | [link](https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html) |
+| [NOD-EEG (ds005811)](https://openneuro.org/datasets/ds005811) | human | EEG (vision) | BIDS | ~17 GB | open (CC0) | [link](https://openneuro.org/datasets/ds005811) |
 
 ## Human — MEG
 
@@ -84,6 +100,10 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [MNE-Python Sample Datasets](https://mne.tools/stable/documentation/datasets.html) | human | MEG / EEG / MRI | .fif | ~1.5 GB | open | [link](https://mne.tools/stable/documentation/datasets.html) |
 | [OMEGA (Open MEG Archive)](https://www.mcgill.ca/bic/resources/omega) | human | MEG + MRI | BIDS (CTF .ds + NIfTI) | varies (644 subj) | data-use-agreement | [link](https://www.mcgill.ca/bic/omega-registration) |
 | [MEG-MASC (Gwilliams)](https://osf.io/ag3kj/) | human | MEG | BIDS | varies (27 subj) | open | [link](https://osf.io/ag3kj/) |
+| [WAND](https://gin.g-node.org/CUBRIC/WAND) | human | MRI / fMRI / MRS / MEG / TMS | BIDS | 170 participants | open (G-Node GIN) | [link](https://doi.gin.g-node.org/10.12751/g-node.5mv3bf/) |
+| [LibriBrain](https://huggingface.co/datasets/pnpl/LibriBrain) | human | MEG (speech) | HDF5 / serialized | ~50 GB | open (public domain) | [link](https://huggingface.co/datasets/pnpl/LibriBrain) |
+| [MEG-SCANS (ds006468)](https://openneuro.org/datasets/ds006468) | human | MEG / MRI | BIDS | ~109 GB | open (CC0) | [link](https://openneuro.org/datasets/ds006468) |
+| [NOD-MEG (ds005810)](https://openneuro.org/datasets/ds005810) | human | MEG / MRI (vision) | BIDS | ~192 GB | open (CC0) | [link](https://openneuro.org/datasets/ds005810) |
 
 ## Human — Intracranial / PET / fNIRS
 
@@ -103,6 +123,66 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [HD-DOT Ball-Squeezing fNIRS (ds005930)](https://openneuro.org/datasets/ds005930) | human | fNIRS | BIDS + SNIRF | varies | open (CC0) | [link](https://openneuro.org/datasets/ds005930) |
 | [fNIRS Motion-Artifact (ds005929)](https://openneuro.org/datasets/ds005929) | human | fNIRS | BIDS + SNIRF | varies | open (CC0) | [link](https://openneuro.org/datasets/ds005929) |
 | [Finger-Tapping fNIRS (ds005776)](https://openneuro.org/datasets/ds005776) | human | fNIRS | BIDS + SNIRF | varies | open (CC0) | [link](https://openneuro.org/datasets/ds005776) |
+| [AJILE12 (DANDI 000055)](https://dandiarchive.org/dandiset/000055) | human | iEEG/ECoG + pose | NWB | ~846 GB | open (CC BY 4.0) | [link](https://dandiarchive.org/dandiset/000055) |
+| [Human es-fMRI (ds002799)](https://openneuro.org/datasets/ds002799) | human | iEEG-stim + fMRI | BIDS | ~20 GB | open (CC0) | [link](https://openneuro.org/datasets/ds002799) |
+| [Energetic Costs of the Connectome (ds004513)](https://openneuro.org/datasets/ds004513) | human | PET (FDG) + fMRI | PET-BIDS | ~44 GB | open (CC0) | [link](https://openneuro.org/datasets/ds004513) |
+
+## Human — MR Spectroscopy
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [Big GABA](https://www.nitrc.org/projects/biggaba/) | human | MRS (MEGA-PRESS / PRESS) | SDAT/RDA/P + CSV | ~0.5 GB/site | open (NC license) | [link](https://www.nitrc.org/frs/?group_id=1019) |
+
+## Human — Quantitative & Microstructure MRI
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [MICRA](https://osf.io/z3mkn/) | human | dMRI / relaxometry / qMT | NIfTI | varies (6 subj x 5 sessions) | open (CC BY) | [link](https://osf.io/z3mkn/) |
+| [MASSIVE](https://www.massive-data.org/) | human | dMRI (~8,000 vols) / FLAIR / T1 / T2 | NIfTI | large (1 subj) | open | [link](https://www.massive-data.org/) |
+| [Penthera 3T](https://brain.labsolver.org/mds/data-others/brain.html) | human | dMRI (multi-shell, scan-rescan) | NIfTI | varies (13 subj) | open | [link](https://brain.labsolver.org/mds/data-others/brain.html) |
+| [MGH Connectome Diffusion Microstructure (CDMD)](https://doi.org/10.6084/m9.figshare.c.5315474) | human | dMRI (300 mT/m) / T1 | NIfTI | large (26 subj) | open | [link](https://doi.org/10.6084/m9.figshare.c.5315474) |
+
+## Human — Spinal Cord
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [Spine Generic Multi-Subject](https://github.com/spine-generic/data-multi-subject) | human | spinal cord MRI (qMRI) | NIfTI (BIDS) | ~26 GB (260 subj, 42 sites) | open (CC BY 4.0) | [link](https://github.com/spine-generic/data-multi-subject) |
+
+## Human — Fetal & Neonatal
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [Developing Human Connectome Project (dHCP)](https://www.developingconnectome.org/data-release/second-data-release/) | human (neonatal/fetal) | sMRI / dMRI / rfMRI | NIfTI (BIDS) | ~500 GB | free-registration + DUA | [link](https://www.developingconnectome.org/data-release/second-data-release/) |
+| [Baby Open Brains (ds005450)](https://openneuro.org/datasets/ds005450) | human (infant) | sMRI + manual segmentations | NIfTI (BIDS) | varies (71 visits) | open | [link](https://openneuro.org/datasets/ds005450) |
+| [M-CRIB Neonatal Atlas](https://github.com/DevelopmentalImagingMCRI/M-CRIB_atlas) | human (neonatal) | atlas (T1/T2 + parcellation) | NIfTI | <1 GB | open | [link](https://github.com/DevelopmentalImagingMCRI/M-CRIB_atlas) |
+
+## Human — TMS (Concurrent Stimulation)
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [Concurrent TMS-fMRI Causal Connectome (ds005498)](https://openneuro.org/datasets/ds005498) | human | TMS-fMRI / rfMRI / sMRI | BIDS (NIfTI) | varies (152 subj) | open (CC BY-NC-ND 4.0) | [link](https://openneuro.org/datasets/ds005498) |
+| [TMS-EEG Parietal Decision-Making (ds004917)](https://openneuro.org/datasets/ds004917) | human | TMS-EEG / fMRI / dMRI | BIDS | varies | open | [link](https://openneuro.org/datasets/ds004917) |
+
+## Human — Sleep
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [National Sleep Research Resource (NSRR)](https://sleepdata.org/) | human | PSG / actigraphy / questionnaire | EDF + XML + CSV | large (tens of thousands of records) | free data-access request + DUA | [link](https://sleepdata.org/datasets) |
+
+## Human — Clinical & Lesion
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [ATLAS v2.0 (Stroke Lesions)](https://fcon_1000.projects.nitrc.org/indi/retro/atlas.html) | human | sMRI (T1) + lesion masks | NIfTI (BIDS) | varies (955 scans) | free-registration (INDI) / restricted (ICPSR native) | [link](https://fcon_1000.projects.nitrc.org/indi/retro/atlas.html) |
+| [ISLES 2022](https://doi.org/10.5281/zenodo.7153326) | human | MRI (FLAIR/DWI/ADC) + lesion masks | NIfTI (BIDS) | ~1.7 GB | open (CC BY 4.0) | [link](https://doi.org/10.5281/zenodo.7153326) |
+| [BraTS 2021](https://www.cancerimagingarchive.net/analysis-result/rsna-asnr-miccai-brats-2021/) | human | mpMRI + tumor masks | NIfTI / DICOM | ~12 GB (NIfTI) | open (CC BY 4.0) / mixed (TCIA DICOM) | [link](https://www.synapse.org/brats) |
+
+## Human — Brain-Computer Interface & Decoding
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [Handwriting BCI (Willett 2021)](https://datadryad.org/dataset/doi:10.5061/dryad.wh70rxwmv) | human | intracortical (motor cortex) | MATLAB | ~1.4 GB | open | [link](https://datadryad.org/dataset/doi:10.5061/dryad.wh70rxwmv) |
+| [Speech Neuroprosthesis BCI (Willett 2023)](https://datadryad.org/dataset/doi:10.5061/dryad.x69p8czpq) | human | intracortical (speech motor cortex) | MATLAB (.mat) | ~80 GB | open | [link](https://datadryad.org/dataset/doi:10.5061/dryad.x69p8czpq) |
 
 ## Non-Human Primate
 
@@ -120,6 +200,11 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [Macaque Color/Contrast/SF (ds005521)](https://openneuro.org/datasets/ds005521) | macaque | fMRI | BIDS / NIfTI | ~38.8 GB | open (CC0) | [link](https://openneuro.org/datasets/ds005521) |
 | [Brain Catalogue](https://braincatalogue.org/) | 34 primate species | atlas / MRI | NIfTI | 34 species | open (CC-BY-SA 3.0) | [link](https://braincatalogue.org/) |
 | [Freiwald & Tsao Face-Patch](https://readout.info/downloads/datasets/freiwald-tsao-face-views-am-dataset/) | macaque | electrophysiology (single-unit) | MATLAB / CSV / R | 3 monkeys | open (citation required) | [link](https://readout.info/downloads/datasets/freiwald-tsao-face-views-am-dataset/) |
+| [TVSD - THINGS Ventral-Stream Spiking](https://doi.gin.g-node.org/10.12751/g-node.hc7zlv/) | macaque | electrophysiology (V1/V4/IT spiking) | spiking / MATLAB | ~3.2 TiB | open (CC BY 4.0) | [link](https://gin.g-node.org/paolo_papale/TVSD) |
+| [NHP Reaching (O'Doherty/Sabes)](https://zenodo.org/records/3854034) | macaque | electrophysiology (M1/S1) + kinematics | MATLAB (.mat) | ~24 GB | open (CC BY 4.0) | [link](https://zenodo.org/records/3854034) |
+| [Parkinsonian Macaque (DANDI 000947)](https://dandiarchive.org/dandiset/000947) | macaque | electrophysiology | NWB | ~1 TB | open (CC BY 4.0) | [link](https://dandiarchive.org/dandiset/000947) |
+| [Macaque Working Memory (DANDI 000620)](https://dandiarchive.org/dandiset/000620) | macaque | electrophysiology | NWB | ~5.5 TB | open (CC BY 4.0) | [link](https://dandiarchive.org/dandiset/000620) |
+| [Macaque Wireless ECoG (ds006890)](https://openneuro.org/datasets/ds006890) | macaque | ECoG / iEEG | BIDS | ~44 GB | open (CC0) | [link](https://openneuro.org/datasets/ds006890) |
 
 ## Rodent
 
@@ -145,6 +230,8 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [CRCNS ssc-1 (barrel cortex 2P)](https://crcns.org/data-sets/ssc/ssc-1) | mouse | 2-photon | NERSC-hosted | varies | free-registration | [link](https://crcns.org/data-sets/ssc/ssc-1) |
 | [CRCNS ssc-2 (volumetric 2P)](https://crcns.org/data-sets/ssc/ssc-2) | mouse | 2-photon | NERSC-hosted | ~12,000 neurons/mouse | free-registration | [link](https://crcns.org/data-sets/ssc/ssc-2) |
 | [jGCaMP8 V1 (DANDI 000168)](https://dandiarchive.org/dandiset/000168) | mouse | 2-photon + cell-attached | NWB | ~1.38 TB | open (CC-BY-4.0) | [link](https://dandiarchive.org/dandiset/000168) |
+| [Whole-Brain fUS in Awake Mice](https://doi.org/10.5281/zenodo.4905862) | mouse | functional ultrasound | MATLAB (.mat) | ~731 MB | open (CC BY 4.0) | [link](https://zenodo.org/records/4905862) |
+| [fMOST Whole-Brain Mouse (Zeng Lab)](https://doi.org/10.1038/s41597-024-03761-8) | mouse | fMOST light microscopy + morphology | image volumes + SWC | TB-scale | open | [link](https://www.brainimagelibrary.org/) |
 
 ## Other Model Organisms
 
@@ -168,6 +255,18 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [Chronic HVC Recordings in Zebra Finches](https://figshare.com/articles/dataset/Chronic_Recording_of_HVC_in_Free_Behaving_Zebra_FInch_with_Behaviors_Hand_Annotated/15094219) | zebra finch (songbird) | electrophysiology | data + audio in ZIP | ~2.8 GB | open (CC BY 4.0) | [link](https://figshare.com/articles/dataset/Chronic_Recording_of_HVC_in_Free_Behaving_Zebra_FInch_with_Behaviors_Hand_Annotated/15094219) |
 | [CRCNS aa-2 (Avian Auditory)](https://crcns.org/data-sets/aa/aa-2) | zebra finch (songbird) | electrophysiology | spike times + WAV | ~180 MB | free-registration | [link](https://portal.nersc.gov/project/crcns/download/aa-2) |
 | [CRCNS apl-1 (Aplysia)](https://crcns.org/data-sets/aplysia/apl-1) | Aplysia californica | voltage-sensitive-dye imaging | MATLAB / TXT | ~6.5 GB | free-registration | [link](https://portal.nersc.gov/project/crcns/download/apl-1) |
+| [C. elegans Signal Propagation Atlas (DANDI 001075)](https://dandiarchive.org/dandiset/001075) | C. elegans | optogenetics + calcium imaging | NWB | ~4 TB | open (CC BY 4.0) | [link](https://dandiarchive.org/dandiset/001075) |
+| [Chickadee Hippocampus Barcodes (Chettih 2024)](https://datadryad.org/dataset/doi:10.5061/dryad.7h44j101z) | black-capped chickadee | electrophysiology + 2-photon (hippocampus) | MATLAB + video | ~38 GB | open | [link](https://datadryad.org/dataset/doi:10.5061/dryad.7h44j101z) |
+| [Xenopus Optic-Tectum Ephys (Ciarleglio 2015)](https://datadryad.org/dataset/doi:10.5061/dryad.18kk6) | Xenopus laevis | patch-clamp (optic tectum) | MATLAB (.mat) | ~447 MB | open | [link](https://datadryad.org/dataset/doi:10.5061/dryad.18kk6) |
+| [Bengalese Finch Song Repository](https://figshare.com/articles/dataset/Bengalese_Finch_song_repository/4805749) | Bengalese finch | audio song + annotations | .cbin + .not.mat | ~8.7 GB | open (CC0) | [link](https://figshare.com/articles/dataset/Bengalese_Finch_song_repository/4805749) |
+| [Juvenile Pig Cerebral-Ischemia ECoG/EEG](https://doi.org/10.18112/openneuro.ds003380.v1.0.0) | pig (juvenile) | ECoG / electrothalamogram | BIDS (EDF) | varies | open (CC0) | [link](https://doi.org/10.18112/openneuro.ds003380.v1.0.0) |
+
+## Organoids & In Vitro
+
+| Dataset | Sample | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [Human Brain Organoid Firing Sequences (DANDI 001603)](https://dandiarchive.org/dandiset/001603) | human organoid (iPSC) | extracellular ephys (in vitro) | NWB | ~322 GB | open | [link](https://dandiarchive.org/dandiset/001603) |
+| [Neural Organoid Shell-MEA (DANDI 001336)](https://dandiarchive.org/dandiset/001336) | human organoid (iPSC) | MEA ephys (in vitro) | NWB | ~35 GB | open | [link](https://dandiarchive.org/dandiset/001336) |
 
 ## Connectomics — EM Reconstructions
 

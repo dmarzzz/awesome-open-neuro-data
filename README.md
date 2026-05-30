@@ -16,14 +16,24 @@ Everything here should be **open** (downloadable or streamable without a paywall
   - [Intracranial (iEEG / ECoG)](#intracranial-ieeg--ecog)
   - [PET](#pet)
   - [fNIRS](#fnirs)
+  - [MR Spectroscopy](#mr-spectroscopy)
+  - [Quantitative & Microstructure MRI](#quantitative--microstructure-mri)
+  - [Spinal Cord](#spinal-cord)
+  - [Fetal & Neonatal](#fetal--neonatal)
+  - [TMS (Concurrent Stimulation)](#tms-concurrent-stimulation)
+  - [Sleep](#sleep)
+  - [Clinical & Lesion](#clinical--lesion)
+  - [Brain-Computer Interface & Decoding](#brain-computer-interface--decoding)
 - [Non-Human Primate](#non-human-primate)
 - [Rodent](#rodent)
   - [Electrophysiology](#electrophysiology)
   - [Two-Photon & Calcium Imaging](#two-photon--calcium-imaging)
+  - [Functional Ultrasound & Whole-Brain Imaging](#functional-ultrasound--whole-brain-imaging)
 - [Other Model Organisms](#other-model-organisms)
   - [Zebrafish](#zebrafish)
   - [C. elegans](#c-elegans)
   - [Other Invertebrates & Songbird](#other-invertebrates--songbird)
+- [Organoids & In Vitro](#organoids--in-vitro)
 - [Connectomics](#connectomics)
 - [Atlases & Reference Spaces](#atlases--reference-spaces)
 - [Gene Expression & Transcriptomics](#gene-expression--transcriptomics)
@@ -52,6 +62,7 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [BRAIN Initiative Data Archives](https://braininitiative.nih.gov/research/data-science-and-informatics/informatics-program) - The NIH BRAIN Initiative informatics page, an authoritative directory of the federated BRAIN data archives (DANDI, OpenNeuro, BossDB, NeMO, NEMAR, BIL, and more). A directory, not itself a data store.
 - [OpenNeuroPET](https://openneuropet.github.io/) - The PET arm of OpenNeuro, indexing brain PET datasets in PET-BIDS across many tracers, all shared under CC0. A BRAIN Initiative archive.
 - [DABI](https://dabi.loni.usc.edu/) - The Data Archive for the BRAIN Initiative, a repository for invasive human and animal neurophysiology (intracranial electrophysiology and related neurodata). Mixed access: public and controlled-access datasets, free account.
+- [Canadian Open Neuroscience Platform (CONP)](https://conp.ca/) - A pan-Canadian open-science platform whose portal indexes and serves neuroscience datasets and analysis pipelines through DataLad, spanning many labs, species, and modalities. Free; some datasets download anonymously, others need a free third-party account.
 
 ## Human
 
@@ -78,6 +89,11 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [Courtois NeuroMod](https://www.cneuromod.ca/) - A deep-sampling dataset recording a small cohort over years of naturalistic and task fMRI (movies, video games, audio), distributed via DataLad. Open after agreeing to the access terms.
 - [Generic Object Decoding (Kamitani)](https://openneuro.org/datasets/ds001246) - fMRI from subjects viewing and imagining objects across 150+ categories, used for neural decoding and image reconstruction. Openly downloadable from OpenNeuro.
 - [Healthy Brain Network MRI](https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/) - A large transdiagnostic pediatric resource: resting-state and movie-watching fMRI, diffusion, and structural MRI from thousands of children and adolescents. Imaging is openly downloadable; richer phenotypes require an agreement.
+- [UCLA Consortium for Neuropsychiatric Phenomics (ds000030)](https://openneuro.org/datasets/ds000030) - A widely cited transdiagnostic dataset: structural and task/rest fMRI from 272 participants spanning healthy controls, schizophrenia, bipolar disorder, and ADHD, in BIDS. Openly downloadable from OpenNeuro under CC0.
+- [Transdiagnostic Connectome Project (ds005237)](https://openneuro.org/datasets/ds005237) - Richly phenotyped neuroimaging from 241 individuals across a range of psychiatric diagnoses plus controls, with raw BIDS data and HCP-pipeline derivatives. Openly downloadable from OpenNeuro under CC0.
+- [NIMH Healthy Research Volunteer Dataset (ds005752)](https://openneuro.org/datasets/ds005752) - Deeply phenotyped multimodal data from 251 healthy volunteers, combining structural/functional MRI and resting/task MEG with clinical and cognitive measures. Openly downloadable from OpenNeuro under CC0.
+- [MICA-MICs](https://portal.conp.ca/dataset?id=projects/mica-mics) - Raw and fully processed multimodal 3T MRI from 50 healthy adults (T1w, quantitative T1, diffusion, resting-state fMRI) with 18 pre-built connectomes across parcellation scales, in BIDS. Openly downloadable via the CONP portal under CC0.
+- [BrainLat](https://www.synapse.org/Synapse:syn51549340) - The Latin American Brain Health Institute multimodal dataset: anatomical MRI, resting-state fMRI, diffusion MRI, and high-density resting-state EEG from 780 participants across five Latin American countries, weighted toward neurodegenerative disease. Open via Synapse with a free account.
 
 ### EEG
 
@@ -97,6 +113,16 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [Nencki-Symfonia EEG/ERP](https://openneuro.org/datasets/ds004621) - High-density 128-channel EEG/ERP from 42 healthy adults across three cognitive tasks plus resting state, in BIDS. Openly downloadable from OpenNeuro under CC0.
 - [SRM Resting-state EEG](https://openneuro.org/datasets/ds003775) - Four minutes of eyes-closed resting-state EEG from 111 healthy adults, a clean reproducibility-oriented baseline, in BIDS. Openly downloadable from OpenNeuro under CC0.
 - [BCI Competition IV](https://www.bbci.de/competition/iv/) - The benchmark datasets from the fourth BCI Competition: EEG motor imagery (cued and uncued), MEG hand-movement direction, and ECoG finger movements. Freely downloadable after agreeing to cite the recording groups.
+- [Cuban Human Brain Mapping Project (CHBMP)](https://chbmp-open.loris.ca/) - A population-based normative dataset from 282 healthy adults: high-density resting-state EEG, structural MRI, and cognitive testing. Openly available through a LORIS portal and Synapse, mirrored on CONP.
+- [TDBRAIN](https://brainclinics.com/resources/) - Two Decades-Brainclinics Research Archive: resting-state (eyes-open/closed) EEG plus ECG and task data from 1,274 psychiatric patients (MDD, ADHD, OCD, and more), in BIDS. Free after registering and signing a data-use agreement.
+- [ZuCo](https://osf.io/q3zws/) - The Zurich Cognitive Language Processing Corpus: simultaneous high-density EEG and eye-tracking from adults reading ~1,100 natural English sentences, built for reading, language, and NLP research. Openly downloadable from OSF.
+- [OpenMIIR](https://github.com/sstober/openmiir) - An open EEG dataset of music perception and imagination: 10 subjects listened to and imagined 12 short music fragments in 64-channel EEG. Released under the Open Data Commons PDDL in MNE-compatible format.
+- [EEG in Alzheimer's and Frontotemporal Dementia (ds004504)](https://openneuro.org/datasets/ds004504) - Resting-state EEG from 88 participants (Alzheimer's disease, frontotemporal dementia, and healthy controls), a heavily downloaded clinical EEG benchmark, in BIDS. Openly downloadable from OpenNeuro under CC0.
+- [Inner Speech (ds003626)](https://openneuro.org/datasets/ds003626) - High-density EEG from 10 subjects performing inner-speech, pronounced-speech, and visualized-condition tasks, a benchmark for imagined-speech decoding, in BIDS. Openly downloadable from OpenNeuro under CC0.
+- [SeizeIT2 (ds005873)](https://openneuro.org/datasets/ds005873) - A large multi-center wearable and scalp EEG dataset of 125 patients for focal-seizure detection with behind-the-ear and full-scalp montages, in BIDS. Openly downloadable from OpenNeuro under CC0.
+- [Bitbrain Open Access Sleep (ds005555)](https://openneuro.org/datasets/ds005555) - Whole-night polysomnography from 128 subjects combining a wearable dry-EEG headband with clinical-grade PSG and expert sleep staging, in BIDS. Openly downloadable from OpenNeuro under CC0.
+- [NATVIEW EEG-fMRI](https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html) - Simultaneous EEG-fMRI from 22 healthy adults during rest, flickering checkerboard, Inscapes, and movies, with eye tracking and physiology, in BIDS. Openly downloadable via FCP/INDI on AWS S3 under CC BY 4.0.
+- [NOD-EEG (Natural Object Dataset)](https://openneuro.org/datasets/ds005811) - EEG from 19 subjects viewing large numbers of naturalistic ImageNet object images, part of a multimodal (EEG/MEG/fMRI) visual-recognition resource, in BIDS. Openly downloadable from OpenNeuro under CC0.
 
 ### MEG
 
@@ -104,6 +130,10 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [MNE-Python Sample Datasets](https://mne.tools/stable/documentation/datasets.html) - Bundled example datasets for MNE-Python, including a simultaneous MEG/EEG recording (with MRI) from an audiovisual paradigm, fetched programmatically. Openly accessible; intended for learning and testing.
 - [OMEGA (Open MEG Archive)](https://www.mcgill.ca/bic/resources/omega) - A large multi-site MEG archive of 644 participants (resting-state plus task), with anatomical MRI, in BIDS/CTF format covering healthy controls and clinical groups. Free but requires registration and a data-use agreement.
 - [MEG-MASC (Gwilliams)](https://osf.io/ag3kj/) - High-quality MEG from 27 English speakers who each listened to two hours of naturalistic stories, with word- and phoneme-level annotations, in BIDS. Openly downloadable from OSF.
+- [WAND (Welsh Advanced Neuroimaging Database)](https://gin.g-node.org/CUBRIC/WAND) - A multi-scale dataset from 170 volunteers at Cardiff's CUBRIC: ultra-strong-gradient and 3T/7T structural and functional MRI plus MR spectroscopy, MEG, and TMS, in BIDS. Freely downloadable from G-Node GIN.
+- [LibriBrain](https://huggingface.co/datasets/pnpl/LibriBrain) - The largest single-subject MEG speech corpus to date: 50+ hours of within-subject MEG from one participant listening to audiobooks, with aligned transcripts and a PyTorch-ready API. Openly downloadable from Hugging Face under a public-domain license.
+- [MEG-SCANS (ds006468)](https://openneuro.org/datasets/ds006468) - Raw MEG from 24 German-speaking subjects listening to two audiobooks plus matrix sentences and chirps, with structural MRI and audiograms, in BIDS. Openly downloadable from OpenNeuro under CC0.
+- [NOD-MEG (Natural Object Dataset)](https://openneuro.org/datasets/ds005810) - MEG from 31 subjects viewing large numbers of naturalistic ImageNet object images (the same participants also did fMRI and EEG), a multimodal visual-recognition resource, in BIDS. Openly downloadable from OpenNeuro under CC0.
 
 ### Intracranial (iEEG / ECoG)
 
@@ -114,12 +144,15 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [IEEG.org](https://www.ieeg.org/) - The International Epilepsy Electrophysiology Portal, a NINDS-funded archive of 1200+ human and animal intracranial EEG datasets with imaging and de-identified clinical metadata, browsable and streamable in-platform. Free user account required.
 - [MNI Open iEEG Atlas](https://mni-open-ieegatlas.research.mcgill.ca) - A normative atlas of resting and sleep intracranial EEG from ~110 epilepsy patients (~2,300 channels in non-epileptic tissue), served as an open web resource with spectral brain maps. Free registration.
 - [Localize-MI](https://doi.org/10.25493/NXN2-05W) - A ground-truth dataset of simultaneous single-pulse intracerebral stimulation and 256-channel HD-EEG in 7 patients (61 sessions), BIDS-formatted, for validating EEG source-localization methods. Open under CC BY 4.0 via EBRAINS.
+- [AJILE12 (DANDI 000055)](https://dandiarchive.org/dandiset/000055) - Long-term naturalistic human intracranial ECoG (~12 subjects, 7+ days each) recorded continuously alongside markerless body-pose tracking from synchronized video, in NWB. Openly downloadable from DANDI under CC BY 4.0.
+- [Human es-fMRI (ds002799)](https://openneuro.org/datasets/ds002799) - Concurrent intracranial electrical stimulation and fMRI from 26 epilepsy patients, mapping causal stimulation-evoked whole-brain responses, in BIDS. Openly downloadable from OpenNeuro under CC0.
 
 ### PET
 
 - [NRM2018 PET Grand Challenge (ds001705)](https://openneuro.org/datasets/ds001705) - Baseline and intervention brain PET data in PET-BIDS from the NRM2018 reconstruction challenge. Openly downloadable from OpenNeuro under CC0.
 - [Monash rsPET-fMRI (ds002898)](https://openneuro.org/datasets/ds002898) - Concurrent resting-state fMRI and 18F-FDG PET from 27 healthy controls acquired on a Siemens Biograph mMR. Openly downloadable from OpenNeuro under CC0.
 - [First-in-human PS13 COX-1 PET (ds004230)](https://openneuro.org/datasets/ds004230) - A PET-BIDS dataset evaluating the radioligand 11C-PS13 to quantify cyclooxygenase-1 in the human brain. Openly downloadable from OpenNeuro under CC0.
+- [Energetic Costs of the Human Connectome (ds004513)](https://openneuro.org/datasets/ds004513) - Simultaneous FDG-PET and BOLD fMRI from 20 participants relating glucose metabolism to functional connectivity, in PET-BIDS. Openly downloadable from OpenNeuro under CC0.
 
 ### fNIRS
 
@@ -127,6 +160,47 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [HD-DOT Ball-Squeezing fNIRS (ds005930)](https://openneuro.org/datasets/ds005930) - A high-density diffuse optical tomography fNIRS dataset in BIDS and SNIRF. Openly downloadable from OpenNeuro under CC0.
 - [fNIRS Motion-Artifact (ds005929)](https://openneuro.org/datasets/ds005929) - An fNIRS dataset for characterizing and correcting motion artifacts, in BIDS and SNIRF. Openly downloadable from OpenNeuro under CC0.
 - [Electrical & Thermal Finger-Tapping fNIRS (ds005776)](https://openneuro.org/datasets/ds005776) - An fNIRS finger-tapping and stimulation dataset in BIDS and SNIRF. Openly downloadable from OpenNeuro under CC0.
+
+### MR Spectroscopy
+
+- [Big GABA](https://www.nitrc.org/projects/biggaba/) - A multi-vendor, multi-site repository of single-voxel edited MR spectroscopy (MEGA-PRESS and short-TE PRESS) from two dozen research sites on GE, Philips, and Siemens 3T scanners, with tissue-fraction and demographic data. Openly downloadable from NITRC under a non-commercial Creative Commons license.
+
+### Quantitative & Microstructure MRI
+
+- [MICRA](https://osf.io/z3mkn/) - Microstructural Image Compilation with Repeated Acquisitions: five repeated sessions in 6 adults on an ultra-strong-gradient Connectom scanner, spanning multi-shell diffusion, multi-component relaxometry, and quantitative magnetization transfer, for test-retest work. Open on OSF under CC BY.
+- [MASSIVE](https://www.massive-data.org/) - One subject scanned 18 times yielding ~8,000 diffusion volumes across five shells (b up to 9,000 s/mm²) plus FLAIR, T1, and T2, for diffusion modeling and methods development. Openly available, raw and processed.
+- [Penthera 3T](https://brain.labsolver.org/mds/data-others/brain.html) - Scan-rescan multi-shell diffusion MRI from 13 healthy young adults (two sessions, three scans each) on a Philips 3T scanner, for multi-shell modeling and reliability studies. Openly downloadable.
+- [MGH Connectome Diffusion Microstructure Dataset (CDMD)](https://doi.org/10.6084/m9.figshare.c.5315474) - One hour of diffusion MRI per subject from 26 adults on the MGH Connectome scanner at 300 mT/m, sampling two diffusion times and eight gradient strengths, with scan-rescan data and FreeSurfer outputs. Openly downloadable from figshare.
+
+### Spinal Cord
+
+- [Spine Generic Multi-Subject](https://github.com/spine-generic/data-multi-subject) - Quantitative spinal cord MRI from 260 participants across 42 centers on the three major MRI manufacturers, acquired with the standardized spine-generic protocol, in BIDS. Open under CC BY 4.0 via git-annex.
+
+### Fetal & Neonatal
+
+- [Developing Human Connectome Project (dHCP)](https://www.developingconnectome.org/data-release/second-data-release/) - Structural, diffusion, and resting-state functional MRI mapping brain development from 20 weeks gestational age to term, including 558 neonatal subjects and the first open-access fetal fMRI release. Free after registration and signing the user data-use terms.
+- [Baby Open Brains (BOBs)](https://openneuro.org/datasets/ds005450) - T1- and T2-weighted infant MRI with expert manual brain-tissue and subcortical segmentations across 71 visits from 51 infants aged 1-9 months, in BIDS. Openly downloadable from OpenNeuro, OSF, and S3.
+- [M-CRIB Neonatal Atlas](https://github.com/DevelopmentalImagingMCRI/M-CRIB_atlas) - The Melbourne Children's Regional Infant Brain atlas: manually parcellated neonatal T1/T2 MRI with 100 cortical and subcortical regions compatible with the Desikan-Killiany scheme. Openly available via OSF and GitHub.
+
+### TMS (Concurrent Stimulation)
+
+- [Concurrent TMS-fMRI Causal Connectome (ds005498)](https://openneuro.org/datasets/ds005498) - Concurrent single-pulse TMS and fMRI from 152 participants, with TMS delivered to 11 cortical sites plus resting-state and structural MRI, in BIDS. Openly downloadable from OpenNeuro under CC BY-NC-ND 4.0.
+- [TMS-EEG Parietal Decision-Making (ds004917)](https://openneuro.org/datasets/ds004917) - A multimodal dataset pairing structural MRI, diffusion MRI, and task fMRI with a concurrent EEG plus inhibitory-TMS session over parietal cortex during a decision-making task. Openly downloadable from OpenNeuro.
+
+### Sleep
+
+- [National Sleep Research Resource (NSRR)](https://sleepdata.org/) - An NHLBI repository sharing tens of thousands of de-identified polysomnography, actigraphy, and questionnaire records across large cohorts (SHHS, MESA, CHAT, and more), in EDF/XML/CSV. Free after a per-dataset data-access request and use agreement (no fee).
+
+### Clinical & Lesion
+
+- [ATLAS v2.0 (Stroke Lesions)](https://fcon_1000.projects.nitrc.org/indi/retro/atlas.html) - Anatomical Tracings of Lesions After Stroke: 955 T1-weighted MRIs with manually segmented lesion masks across 33 cohorts, a benchmark for lesion-segmentation algorithms, in BIDS. The preprocessed training set is openly available via INDI/NITRC (free registration); the native-space release is gated through ICPSR.
+- [ISLES 2022](https://doi.org/10.5281/zenodo.7153326) - Ischemic Stroke Lesion Segmentation: 250 expert-annotated multi-center MRI cases (FLAIR, DWI, ADC) of acute-to-subacute stroke lesions, in NIfTI/BIDS. Openly downloadable from Zenodo under CC BY 4.0.
+- [BraTS 2021](https://www.cancerimagingarchive.net/analysis-result/rsna-asnr-miccai-brats-2021/) - The Brain Tumor Segmentation challenge collection: multi-parametric MRI of glioma patients with expert tumor sub-region annotations. The challenge training set (NIfTI) is openly available under CC BY 4.0; the original DICOM source via TCIA carries controlled-access terms.
+
+### Brain-Computer Interface & Decoding
+
+- [Handwriting BCI (Willett et al. 2021)](https://datadryad.org/dataset/doi:10.5061/dryad.wh70rxwmv) - Intracortical motor-cortex recordings (two 96-electrode arrays) as a participant with paralysis attempted handwriting 1,000 sentences over 10.7 hours, the data behind high-performance handwriting brain-to-text. Openly downloadable from Dryad.
+- [Speech Neuroprosthesis BCI (Willett et al. 2023)](https://datadryad.org/dataset/doi:10.5061/dryad.x69p8czpq) - Intracortical neural activity from 256 electrodes during ~12,100 attempted-speech sentences, the dataset powering the Brain-to-Text Benchmark '24. Openly downloadable from Dryad.
 
 ## Non-Human Primate
 
@@ -142,6 +216,11 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [Macaque Color, Contrast & Spatial Frequency (ds005521)](https://openneuro.org/datasets/ds005521) - Functional MRI from two adult rhesus macaques probing color, contrast, and spatial-frequency tuning, in BIDS (~38.8 GB). Freely downloadable from OpenNeuro under CC0.
 - [Brain Catalogue](https://braincatalogue.org/) - An Institut Pasteur online viewer and repository of brain scans across 34 primate species, including macaque, gorilla, and chimpanzee. Viewable and downloadable as NIfTI under CC-BY-SA 3.0.
 - [Freiwald & Tsao Macaque Face-Patch Recordings](https://readout.info/downloads/datasets/freiwald-tsao-face-views-am-dataset/) - Single-unit electrophysiology from the macaque face-patch system recorded while monkeys viewed 25 identities across 8 head orientations, distributed via the Neural Decoding Toolbox. Openly downloadable (citation required).
+- [TVSD - THINGS Ventral-Stream Spiking Dataset](https://doi.gin.g-node.org/10.12751/g-node.hc7zlv/) - Large-scale multi-electrode spiking from V1, V4, and IT in two macaques viewing ~22,000 natural images from the THINGS database, a benchmark-scale ventral-stream single-unit library. Open under CC BY 4.0 via G-Node GIN.
+- [Nonhuman Primate Reaching (O'Doherty/Sabes)](https://zenodo.org/records/3854034) - Sorted sensorimotor-cortex (M1, some M1+S1) electrophysiology with fingertip kinematics from two macaques across 47 sessions and ~26,500 reaches, the standard motor-BCI decoding benchmark. Open under CC BY 4.0 on Zenodo.
+- [Parkinsonian Macaque Reach Recordings (DANDI 000947)](https://dandiarchive.org/dandiset/000947) - Reach-related single-unit activity from the basal ganglia of a rhesus macaque before and after MPTP-induced parkinsonism, in NWB. Openly downloadable from DANDI under CC BY 4.0.
+- [Macaque Multi-Object Working Memory (DANDI 000620)](https://dandiarchive.org/dandiset/000620) - Frontal-cortex single-unit recordings from rhesus macaques performing a multi-object working-memory task (Watters, Jazayeri), in NWB. Openly downloadable from DANDI under CC BY 4.0.
+- [Macaque Wireless ECoG (ds006890)](https://openneuro.org/datasets/ds006890) - Longitudinal multitask wireless electrocorticography from two fully implanted Japanese macaques, an unusual chronic NHP ECoG resource, in BIDS. Openly downloadable from OpenNeuro under CC0.
 
 ## Rodent
 
@@ -171,6 +250,11 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [CRCNS ssc-2 (Volumetric Barrel Cortex)](https://crcns.org/data-sets/ssc/ssc-2) - Volumetric two-photon calcium imaging sampling ~75% (~12,000 neurons per mouse) of superficial barrel-cortex neurons during a single-whisker object-localization task (Peron, Svoboda). Free download with a CRCNS.org account.
 - [jGCaMP8 Ground-Truth V1 Imaging (DANDI 000168)](https://dandiarchive.org/dandiset/000168) - Simultaneous two-photon calcium imaging and loose-seal cell-attached recordings of GCaMP8-expressing mouse V1 neurons under drifting gratings, giving spike-to-fluorescence ground truth. Open as NWB under CC-BY-4.0 on DANDI.
 
+### Functional Ultrasound & Whole-Brain Imaging
+
+- [Whole-Brain fUS in Awake Mice (Brunner et al.)](https://doi.org/10.5281/zenodo.4905862) - Whole-brain visually evoked activity maps from awake head-fixed mice acquired with functional ultrasound imaging, with anatomical scans, a brain atlas, and registration transforms. Open on Zenodo under CC BY 4.0.
+- [fMOST Whole-Brain Mouse Imaging (Zeng Lab)](https://doi.org/10.1038/s41597-024-03761-8) - Raw and downsampled fluorescence micro-optical sectioning tomography (fMOST) whole-brain mouse image volumes plus single-neuron morphology reconstructions, served by the Brain Image Library. Openly downloadable, browser-viewable with no account.
+
 ## Other Model Organisms
 
 ### Zebrafish
@@ -191,6 +275,7 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [Brain-wide Behavior Representations (Atanas, Flavell et al. 2023)](https://dandiarchive.org/dandiset/000776) - Whole-brain calcium imaging paired with behavior across timescales and states in freely moving *C. elegans*, the Flavell-lab corpus (~1 TB NWB). Openly downloadable from DANDI under CC BY 4.0.
 - [C. elegans NeuroPAL + Immobilized Calcium (Kato lab)](https://dandiarchive.org/dandiset/000565) - Whole-brain GCaMP activity with matched NeuroPAL structural volumes for single-neuron identification in immobilized worms, in NWB. Openly downloadable from DANDI under CC BY 4.0.
 - [OpenWorm Movement Database](https://zenodo.org/communities/open-worm-movement-database/) - A community archive of 14,874 single-worm tracking experiments across 386 genotypes, with videos, WCON skeleton files, and behavioral feature sets. Openly available via Zenodo under CC BY.
+- [C. elegans Signal Propagation Atlas (DANDI 001075)](https://dandiarchive.org/dandiset/001075) - The Leifer-lab whole-brain functional connectivity atlas combining single-cell optogenetic activation with calcium imaging (Randi et al., Nature 2023), in NWB. Openly downloadable from DANDI under CC BY 4.0.
 
 ### Other Invertebrates & Songbird
 
@@ -199,6 +284,17 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [Drosophila Whole-Brain Functional Imaging (Aimon, Mann et al. 2017)](https://data.mendeley.com/datasets/8b6nw2xxhn/1) - Brain-wide two-photon calcium imaging of adult *Drosophila* with anatomical templates, a Virtual Fly Brain ROI atlas, and ROI time series. Openly downloadable on Mendeley Data under CC BY 4.0.
 - [CRCNS aa-2 (Avian Auditory)](https://crcns.org/data-sets/aa/aa-2) - About 500 single-unit recordings from zebra finch auditory areas with the natural and synthetic sound stimuli used, as spike-time files (Theunissen lab). Free download with a CRCNS.org account.
 - [CRCNS apl-1 (Aplysia)](https://crcns.org/data-sets/aplysia/apl-1) - Fast voltage-sensitive-dye imaging of 1,131 neurons across 10 isolated *Aplysia californica* pedal-ganglion preparations (Bruno & Frost). Free download with a CRCNS.org account.
+- [Episodic-Memory Barcodes in Chickadee Hippocampus (Chettih et al. 2024)](https://datadryad.org/dataset/doi:10.5061/dryad.7h44j101z) - Hippocampal electrophysiology and two-photon calcium imaging from food-caching black-capped chickadees, revealing sparse "barcode" memory codes during caching and retrieval. Openly downloadable from Dryad.
+- [Xenopus Optic-Tectum Electrophysiology (Ciarleglio et al. 2015)](https://datadryad.org/dataset/doi:10.5061/dryad.18kk6) - Raw patch-clamp recordings from *Xenopus laevis* tadpole optic-tectum neurons across development and visual plasticity. Openly downloadable from Dryad.
+- [Bengalese Finch Song Repository](https://figshare.com/articles/dataset/Bengalese_Finch_song_repository/4805749) - Hand-labeled song from four Bengalese finches, a benchmark corpus for birdsong syntax and automated annotation. Open on figshare under CC0.
+- [Juvenile Pig Cerebral-Ischemia ECoG/EEG (Fleischer et al.)](https://doi.org/10.18112/openneuro.ds003380.v1.0.0) - Multimodal 16-channel ECoG and electrothalamogram (plus evoked potentials and cardiovascular signals) from juvenile pigs across sedation, gradual ischemia, and recovery, in BIDS/EDF. Openly downloadable from OpenNeuro under CC0.
+
+## Organoids & In Vitro
+
+Recordings from human iPSC-derived brain organoids and in-vitro neural cultures.
+
+- [Human Brain Organoid Firing Sequences (DANDI 001603)](https://dandiarchive.org/dandiset/001603) - Raw and curated extracellular electrophysiology from human iPSC-derived brain organoids, capturing preconfigured neuronal firing sequences, in NWB. Openly downloadable from DANDI under CC BY 4.0.
+- [Neural Organoid Shell-MEA Neuromodulation (DANDI 001336)](https://dandiarchive.org/dandiset/001336) - Multi-electrode-array recordings from human neural organoids using conformal shell MEAs during neuromodulation, an unusual in-vitro human-tissue electrophysiology resource, in NWB. Openly downloadable from DANDI under CC BY 4.0.
 
 ## Connectomics
 
