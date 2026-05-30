@@ -25,14 +25,20 @@ Everything here should be **open** (downloadable or streamable without a paywall
   - [Clinical & Lesion](#clinical--lesion)
   - [Brain-Computer Interface & Decoding](#brain-computer-interface--decoding)
 - [Non-Human Primate](#non-human-primate)
+- [Other Mammals (Exotic Species)](#other-mammals-exotic-species)
 - [Rodent](#rodent)
   - [Electrophysiology](#electrophysiology)
   - [Two-Photon & Calcium Imaging](#two-photon--calcium-imaging)
   - [Functional Ultrasound & Whole-Brain Imaging](#functional-ultrasound--whole-brain-imaging)
 - [Other Model Organisms](#other-model-organisms)
   - [Zebrafish](#zebrafish)
+  - [Other Fish](#other-fish)
+  - [Amphibians & Reptiles](#amphibians--reptiles)
+  - [Birds & Songbird](#birds--songbird)
+  - [Cephalopods](#cephalopods)
+  - [Insects & Arthropods](#insects--arthropods)
   - [C. elegans](#c-elegans)
-  - [Other Invertebrates & Songbird](#other-invertebrates--songbird)
+  - [Other Invertebrates](#other-invertebrates)
 - [Organoids & In Vitro](#organoids--in-vitro)
 - [Connectomics](#connectomics)
 - [Atlases & Reference Spaces](#atlases--reference-spaces)
@@ -222,6 +228,30 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [Macaque Multi-Object Working Memory (DANDI 000620)](https://dandiarchive.org/dandiset/000620) - Frontal-cortex single-unit recordings from rhesus macaques performing a multi-object working-memory task (Watters, Jazayeri), in NWB. Openly downloadable from DANDI under CC BY 4.0.
 - [Macaque Wireless ECoG (ds006890)](https://openneuro.org/datasets/ds006890) - Longitudinal multitask wireless electrocorticography from two fully implanted Japanese macaques, an unusual chronic NHP ECoG resource, in BIDS. Openly downloadable from OpenNeuro under CC0.
 
+## Other Mammals (Exotic Species)
+
+Open neural data from mammals beyond the standard rodent/primate/human models.
+
+**Bats**
+
+- [Multiscale Representation in Flying Bats (Ulanovsky)](https://doi.org/10.5281/zenodo.4646728) - Hippocampal CA1 recordings from Egyptian fruit bats flying a 200 m tunnel, revealing multiscale place fields, from Eliav et al., Science 2021. Figure data plus MATLAB analysis code (~110 MB uncompressed). Open under CC-BY 4.0 on Zenodo.
+- [Social Coding in Wild Fruit Bats (Ulanovsky)](https://doi.org/10.5281/zenodo.13938638) - Hippocampal data from a social group of wild Egyptian fruit bats encoding conspecific identity, sex, hierarchy, and affiliation, from Ray et al., Science 2025. Figure data (rasters, rate maps) plus MATLAB code (~3.7 GB uncompressed). Open under CC-BY 4.0 on Zenodo.
+
+**Carnivores (Ferret / Dog)**
+
+- [Ferret Brain MRI/DTI Templates (Hutchinson)](https://scalablebrainatlas.incf.org/ferret/HSRetal17) - Population-based in-vivo and ex-vivo MRI and DTI templates of the adult ferret (*Mustela putorius*) brain with segmentation labels, from Hutchinson et al. 2017. Downloadable as NIfTI via the INCF Scalable Brain Atlas; citation policy applies.
+- [Awake Dog Resting-State fMRI (ds003830)](https://openneuro.org/datasets/ds003830) - Resting-state fMRI from 17 idiopathic-epileptic and 20 healthy control dogs (*Canis familiaris*), 37 subjects total, in BIDS (~9.1 GB). Freely downloadable from OpenNeuro under CC0.
+
+**Tree Shrew**
+
+- [Tree Shrew Brain Atlas (9.4T MRI/DTI)](http://www.treeshrewdb.org/MRI/) - Ultra-high-resolution (9.4T) ex-vivo structural and diffusion MRI atlas and population template of the tree shrew (*Tupaia belangeri*) brain with whole-brain parcellation, from Ni et al., PLOS Biology 2026. Openly accessible via the Tree Shrew Database.
+
+**Other Mammals**
+
+- [Ovine (Sheep) Brain MRI Atlas](https://www.mcgill.ca/bic/neuroinformatics/brain-atlases-ovine-brain-atlas) - Stereotaxic population-averaged T1w sheep brain template with gray/white/CSF tissue probability maps and surfaces, from Nitzsche et al. 2015. Freely downloadable from the McGill BIC in MINC and NIfTI (0.5 mm and 0.25 mm, ~26-413 MB).
+- [MSU Comparative Mammalian Brain Collections](https://brains.anatomy.msu.edu/museum/brain/) - Online atlas of serially sectioned, stained brains from 100+ mammal species across 20+ orders, including dolphin, manatee, elephant, echidna, kangaroo, and other exotic species, with a dedicated MRI-based bottlenose-dolphin atlas. Images freely downloadable for educational use (MSU copyright).
+- [Juvenile Pig Cerebral-Ischemia ECoG/EEG (Fleischer et al.)](https://doi.org/10.18112/openneuro.ds003380.v1.0.0) - Multimodal 16-channel ECoG and electrothalamogram (plus evoked potentials and cardiovascular signals) from juvenile pigs across sedation, gradual ischemia, and recovery, in BIDS/EDF. Openly downloadable from OpenNeuro under CC0.
+
 ## Rodent
 
 ### Electrophysiology
@@ -265,6 +295,47 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [Z-Brain](https://zebrafishexplorer.zib.de/) - An open neuroanatomical reference atlas of the 6 dpf larval zebrafish brain built from hundreds of registered brains, with ~294 segmented regions and molecular labels. Freely available.
 - [Zebrafish Brain Browser](https://zenodo.org/records/3367709) - 3D-registered confocal expression patterns for 264 transgenic and enhancer-trap lines in 6 dpf larval zebrafish, browsable online and downloadable as a package. Reference brains under CC BY 4.0.
 
+### Other Fish
+
+- [Mormyrid Electrosensory Midbrain Recordings (Baker et al. 2016)](https://datadryad.org/dataset/doi:10.5061/dryad.892f1) - In vivo evoked-potential recordings from the central electrosensory system of three African mormyrid weakly-electric fish species, with analysis code. Openly downloadable from Dryad under CC0.
+- [Catshark Retina Single-Nucleus RNA-seq Atlas (2025)](https://www.nature.com/articles/s41597-025-04547-2) - A single-nucleus transcriptomic atlas of the postnatal retina of the small-spotted catshark (17,438 nuclei, 22 cell types), the first such resource for a cartilaginous fish. Open under CC BY 4.0, with reads in SRA and matrices in GEO.
+- [Lamprey Neural Cell-Type Atlas (Lamanna et al. 2023)](https://lampreybrain.kaessmannlab.org/) - A spatially-resolved single-cell RNA-seq and in-situ-sequencing atlas of the whole brain of the sea lamprey (adult and larval), illuminating the ancestral vertebrate brain, with an interactive browser. Freely browsable and downloadable, raw data on ArrayExpress.
+
+### Amphibians & Reptiles
+
+- [Xenopus Optic-Tectum Electrophysiology (Ciarleglio et al. 2015)](https://datadryad.org/dataset/doi:10.5061/dryad.18kk6) - Raw patch-clamp recordings from *Xenopus laevis* tadpole optic-tectum neurons across development and visual plasticity. Openly downloadable from Dryad.
+- [ARTISTA: Axolotl Telencephalon Atlas (Wei et al. 2022)](https://db.cngb.org/stomics/artista/) - A single-cell spatial-transcriptomic (Stereo-seq) atlas of the axolotl telencephalon across development and regeneration, with an interactive browser and downloadable matrices. Freely downloadable.
+- [Turtle Cortex Whole-Cell Patch-Clamp (Hemberger et al. 2019)](https://figshare.com/articles/dataset/Turtle_cortex_whole-cell_patch-clamp_recordings/19763017) - Intracellular patch-clamp recordings from ex vivo turtle three-layered cortex, including paired-recording synaptic connectivity, from the Laurent lab. Openly downloadable on figshare under an MIT license.
+- [Ex Vivo Turtle Cortex with Visual Stimulation (Shew/Wessel)](https://figshare.com/articles/journal_contribution/Ex_vivo_turtle_cortex_with_visual_stimulation_Shew_Lab_Wessel_Lab_/4907009) - Multi-electrode-array recordings from the ex vivo turtle visual cortex responding to visual stimuli across 14 experiments, capturing reptilian cortical-wave dynamics. Openly downloadable on figshare under CC BY 4.0.
+
+### Birds & Songbird
+
+- [Chronic HVC Recordings in Singing Zebra Finches](https://figshare.com/articles/dataset/Chronic_Recording_of_HVC_in_Free_Behaving_Zebra_FInch_with_Behaviors_Hand_Annotated/15094219) - Songbird chronic silicon-probe electrophysiology from premotor nucleus HVC during free singing, with synchronized audio and hand-annotated vocalizations. Open under CC BY 4.0.
+- [CRCNS aa-2 (Avian Auditory)](https://crcns.org/data-sets/aa/aa-2) - About 500 single-unit recordings from zebra finch auditory areas with the natural and synthetic sound stimuli used, as spike-time files (Theunissen lab). Free download with a CRCNS.org account.
+- [Bengalese Finch Song Repository](https://figshare.com/articles/dataset/Bengalese_Finch_song_repository/4805749) - Hand-labeled song from four Bengalese finches, a benchmark corpus for birdsong syntax and automated annotation. Open on figshare under CC0.
+- [Episodic-Memory Barcodes in Chickadee Hippocampus (Chettih et al. 2024)](https://datadryad.org/dataset/doi:10.5061/dryad.7h44j101z) - Hippocampal electrophysiology and two-photon calcium imaging from food-caching black-capped chickadees, revealing sparse "barcode" memory codes during caching and retrieval. Openly downloadable from Dryad.
+- [Eurasian Blackcap 3D Brain Atlas (Sirmpilatze et al. 2026)](https://brainglobe.info/projects/blackcap/index.html) - An open 25-µm isotropic 3D brain atlas of the migratory Eurasian blackcap, built from serial two-photon tomography of 8 birds with 44 segmented regions, served through the BrainGlobe Atlas API. Freely available, raw template data on G-Node GIN.
+
+### Cephalopods
+
+- [Octopus Visual System Cell Atlas (Songco-Casey/Niell 2022)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212528) - Single-cell RNA-seq atlas of the *Octopus bimaculoides* optic lobe, defining six major neuronal classes plus their molecular markers. Openly downloadable from NCBI GEO.
+- [Developing Octopus Brain Cell Atlas (Styfhals et al. 2022)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE193622) - Single-cell and single-nuclei RNA-seq of the *Octopus vulgaris* paralarval brain, identifying 42 cell types, with an interactive SCope browser. Openly downloadable from NCBI GEO.
+- [Cuttlebase (Dwarf Cuttlefish Brain Atlas)](https://cuttlebase.org/) - An MRI-based brain atlas of the camouflaging dwarf cuttlefish *Sepia bandensis*, with annotated histological sections and interactive 3D brain and body models. Openly viewable and downloadable, no login.
+
+### Insects & Arthropods
+
+- [Insect Brain Database (InsectBrainDB)](https://insectbraindb.org/) - An open platform of insect neuroanatomical data hosting standard brain atlases and registered neuron morphologies for 30+ non-*Drosophila* species (honeybee, monarch, *Manduca*, locust, mosquito, *Tribolium*, cockroach, several ants). 3D models via web and API under CC BY 4.0.
+- [Honeybee Standard Brain (HSBA)](https://www.bcp.fu-berlin.de/en/biologie/arbeitsgruppen/neurobiologie/ag_menzel/beebrain/hsb/index.html) - The honeybee standard brain from the Menzel lab: an average-shape atlas from 20 confocal brains segmented into 22 neuropils, with reconstructed olfactory neurons. TIFF stacks and 3D models openly downloadable.
+- [Honey Bee Antennal Lobe Calcium Imaging (Paoli 2024)](https://datadryad.org/dataset/doi:10.5061/dryad.qbzkh18sc) - Fast calcium imaging of projection-neuron activity in the honeybee antennal lobe (8 bees, 3 odorants, 20 trials each) as glomerulus-by-odorant response maps. Openly downloadable from Dryad.
+- [Bumblebee Standard Brain Atlas (InsectBrainDB)](https://insectbraindb.org/app/species/10) - The first micro-CT-based insect standard brain: an averaged *Bombus terrestris* worker brain (30 neuropils) from 10 individuals, with downloadable 3D models. Open under CC BY 4.0.
+- [Harpegnathos Ant Brain Single-Cell Atlas (GSE135513)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135513) - Single-cell RNA-seq of jumping-ant brains comparing workers and reproductive gamergates plus aging and injury, mapping cell-type composition across the social transition. Openly downloadable from GEO.
+- [Locust Antennal Lobe Tetrode Recording (Pouzat/Laurent)](https://zenodo.org/records/14607) - An extracellular tetrode recording from the antennal lobe of the locust *Schistocerca americana* from the Laurent lab's olfactory-coding work, as a single HDF5 file. Open on Zenodo under CC0.
+- [Monarch Butterfly Standard Brain Atlas (InsectBrainDB)](https://insectbraindb.org/app/species/5) - A 3D standard brain atlas of the migratory monarch (Heinze lab) reconstructing all major neuropils, focused on the central-complex sun-compass circuit, with registered neurons. Open under CC BY 4.0.
+- [Mosquito Brain Atlas](https://www.mosquitobrains.org/) - A reference brain atlas of the yellow-fever mosquito *Aedes aegypti* (Vosshall lab): a whole-mount female brain imaged at 1 µm and segmented into regions. Reference brain and segmentation files openly downloadable.
+- [Uloborus Spider Brain Atlas (BIL)](https://doi.org/10.35077/ace-owl-gum) - A 3D immunofluorescence standard brain atlas of the orb-weaver spider synganglion (Gordus lab), with aligned maps of several neurotransmitters and neuropeptides. Openly downloadable from the Brain Image Library.
+- [Web-Building Spider Brain Single-Cell Atlas (GSE241696)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241696) - Over 30,000 single-cell transcriptomes from the brain of the spider *Hylyphantes graminicola*, resolving ancestral arachnid neuron types. Openly downloadable from GEO.
+- [Drosophila Whole-Brain Functional Imaging (Aimon, Mann et al. 2017)](https://data.mendeley.com/datasets/8b6nw2xxhn/1) - Brain-wide two-photon calcium imaging of adult *Drosophila* with anatomical templates, a Virtual Fly Brain ROI atlas, and ROI time series. Openly downloadable on Mendeley Data under CC BY 4.0.
+
 ### C. elegans
 
 - [WormID Whole-Brain Corpus](https://wormid.org/) - A harmonized corpus of *C. elegans* whole-brain imaging from 118 worms across 5 labs, combining NeuroPAL structural volumes and GCaMP calcium time series in NWB. Open via the DANDI archive.
@@ -277,17 +348,16 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [OpenWorm Movement Database](https://zenodo.org/communities/open-worm-movement-database/) - A community archive of 14,874 single-worm tracking experiments across 386 genotypes, with videos, WCON skeleton files, and behavioral feature sets. Openly available via Zenodo under CC BY.
 - [C. elegans Signal Propagation Atlas (DANDI 001075)](https://dandiarchive.org/dandiset/001075) - The Leifer-lab whole-brain functional connectivity atlas combining single-cell optogenetic activation with calcium imaging (Randi et al., Nature 2023), in NWB. Openly downloadable from DANDI under CC BY 4.0.
 
-### Other Invertebrates & Songbird
+### Other Invertebrates
 
 - [Whole-Body Neural Activity in Hydra (Hanson et al. 2024)](https://datadryad.org/landing/show?id=doi:10.5061/dryad.h9w0vt4q3) - Dual-channel calcium-imaging movies of whole-body neural activity at single-cell resolution in behaving *Hydra vulgaris*. Openly downloadable under CC0.
-- [Chronic HVC Recordings in Singing Zebra Finches](https://figshare.com/articles/dataset/Chronic_Recording_of_HVC_in_Free_Behaving_Zebra_FInch_with_Behaviors_Hand_Annotated/15094219) - Songbird chronic silicon-probe electrophysiology from premotor nucleus HVC during free singing, with synchronized audio and hand-annotated vocalizations. Open under CC BY 4.0.
-- [Drosophila Whole-Brain Functional Imaging (Aimon, Mann et al. 2017)](https://data.mendeley.com/datasets/8b6nw2xxhn/1) - Brain-wide two-photon calcium imaging of adult *Drosophila* with anatomical templates, a Virtual Fly Brain ROI atlas, and ROI time series. Openly downloadable on Mendeley Data under CC BY 4.0.
-- [CRCNS aa-2 (Avian Auditory)](https://crcns.org/data-sets/aa/aa-2) - About 500 single-unit recordings from zebra finch auditory areas with the natural and synthetic sound stimuli used, as spike-time files (Theunissen lab). Free download with a CRCNS.org account.
+- [Nematostella Single-Cell Reference Atlas (2024)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200198) - A whole-organism developmental single-cell RNA-seq atlas of the starlet sea anemone *Nematostella vectensis*, resolving neuronal and neuroglandular lineages, with an interactive browser. Openly downloadable from NCBI GEO.
+- [Ctenophore Aboral-Organ Volume EM (Burkhardt lab 2025)](https://doi.org/10.6084/m9.figshare.29314115.v1) - Serial block-face SEM volumes of the aboral organ (gravity-sensing center) of the comb jelly *Mnemiopsis leidyi*, the substrate for reconstructing its syncytial nerve net. Openly downloadable from figshare under CC BY 4.0.
 - [CRCNS apl-1 (Aplysia)](https://crcns.org/data-sets/aplysia/apl-1) - Fast voltage-sensitive-dye imaging of 1,131 neurons across 10 isolated *Aplysia californica* pedal-ganglion preparations (Bruno & Frost). Free download with a CRCNS.org account.
-- [Episodic-Memory Barcodes in Chickadee Hippocampus (Chettih et al. 2024)](https://datadryad.org/dataset/doi:10.5061/dryad.7h44j101z) - Hippocampal electrophysiology and two-photon calcium imaging from food-caching black-capped chickadees, revealing sparse "barcode" memory codes during caching and retrieval. Openly downloadable from Dryad.
-- [Xenopus Optic-Tectum Electrophysiology (Ciarleglio et al. 2015)](https://datadryad.org/dataset/doi:10.5061/dryad.18kk6) - Raw patch-clamp recordings from *Xenopus laevis* tadpole optic-tectum neurons across development and visual plasticity. Openly downloadable from Dryad.
-- [Bengalese Finch Song Repository](https://figshare.com/articles/dataset/Bengalese_Finch_song_repository/4805749) - Hand-labeled song from four Bengalese finches, a benchmark corpus for birdsong syntax and automated annotation. Open on figshare under CC0.
-- [Juvenile Pig Cerebral-Ischemia ECoG/EEG (Fleischer et al.)](https://doi.org/10.18112/openneuro.ds003380.v1.0.0) - Multimodal 16-channel ECoG and electrothalamogram (plus evoked potentials and cardiovascular signals) from juvenile pigs across sedation, gradual ischemia, and recovery, in BIDS/EDF. Openly downloadable from OpenNeuro under CC0.
+- [Berghia Head-Ganglia Cell Atlas (Ramirez et al. 2024)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA698785) - Single-cell RNA-seq of the central ring and rhinophore ganglia of the nudibranch sea slug *Berghia stephanieae*, mapping cell types to ganglionic regions. Openly available at NCBI under BioProject PRJNA698785.
+- [Crab STG Recordings at Varying pH (Marder lab 2018)](https://osf.io/r7aes/) - Intracellular and extracellular recordings from the stomatogastric and cardiac ganglia of the crab *Cancer borealis* across a range of bath pH. Openly downloadable from OSF.
+- [Crab STG Recordings at Varying Temperature (Marder lab)](https://zenodo.org/records/5139650) - Extracellular recordings from the decentralized *Cancer borealis* stomatogastric nervous system across temperatures. Openly downloadable from Zenodo under CC BY 4.0.
+- [Leech Ganglion EM Connectome + Voltage Imaging (Ashaber et al. 2021)](https://leechem.caltech.edu) - Serial blockface EM reconstruction of an entire medicinal-leech segmental ganglion paired with voltage-sensitive-dye imaging during swimming, crawling, and local bend. EM via Neuroglancer; data and code on GitHub. Openly accessible.
 
 ## Organoids & In Vitro
 
