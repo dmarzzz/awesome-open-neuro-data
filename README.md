@@ -66,6 +66,14 @@ General-purpose archives and platforms that host datasets across many labs, spec
 - [Narratives](https://openneuro.org/datasets/ds002345) - Naturalistic fMRI from 345 unique subjects (891 functional scans) listening to 27 spoken stories, organized in BIDS. Openly downloadable from OpenNeuro and via DataLad.
 - [COBRE](https://fcon_1000.projects.nitrc.org/indi/retro/cobre.html) - Resting-state fMRI and anatomical MRI from 72 patients with schizophrenia and 75 healthy controls, with phenotypic data. Open for non-commercial use via INDI/COINS.
 - [IXI Dataset](https://brain-development.org/ixi-dataset/) - Nearly 600 MRI scans from healthy subjects across three London hospitals, including T1, T2, PD-weighted, MRA, and diffusion images with demographics. Freely downloadable under CC BY-SA 3.0.
+- [OASIS](https://sites.wustl.edu/oasisbrains/) - The Open Access Series of Imaging Studies: multi-release MRI (plus fMRI, diffusion, and PET in later releases) spanning healthy aging and Alzheimer's disease, including the multi-thousand-session OASIS-3. Open, with later releases via a free data-use agreement.
+- [AOMIC](https://nilab-uva.github.io/AOMIC.github.io/) - The Amsterdam Open MRI Collection: three large BIDS datasets (ID1000, PIOP1, PIOP2) of resting-state and task fMRI, diffusion, and structural MRI with rich psychometrics. Openly downloadable from OpenNeuro.
+- [BOLD5000](https://bold5000-dataset.github.io/website/) - Slow event-related fMRI from 4 subjects who each viewed 5,000 real-world images (Scene, COCO, ImageNet), a benchmark for vision and AI. Openly downloadable.
+- [SALD](https://fcon_1000.projects.nitrc.org/indi/retro/sald.html) - The Southwest University Adult Lifespan Dataset: resting-state fMRI and structural MRI from 494 healthy adults aged 19-80. Open via free registration.
+- [MyConnectome](https://openneuro.org/datasets/ds000031) - A deep-phenotyping single-subject study: ~100 sessions of resting-state and task fMRI, diffusion, and structural MRI from one individual over 18 months. Openly downloadable from OpenNeuro.
+- [Courtois NeuroMod](https://www.cneuromod.ca/) - A deep-sampling dataset recording a small cohort over years of naturalistic and task fMRI (movies, video games, audio), distributed via DataLad. Open after agreeing to the access terms.
+- [Generic Object Decoding (Kamitani)](https://openneuro.org/datasets/ds001246) - fMRI from subjects viewing and imagining objects across 150+ categories, used for neural decoding and image reconstruction. Openly downloadable from OpenNeuro.
+- [Healthy Brain Network MRI](https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/) - A large transdiagnostic pediatric resource: resting-state and movie-watching fMRI, diffusion, and structural MRI from thousands of children and adolescents. Imaging is openly downloadable; richer phenotypes require an agreement.
 
 ### EEG
 
@@ -93,6 +101,17 @@ General-purpose archives and platforms that host datasets across many labs, spec
 ## Non-Human Primate
 
 - [PRIME-DE](https://fcon_1000.projects.nitrc.org/indi/indiPRIME.html) - The PRIMate Data Exchange, an open-science resource aggregating functional, diffusion, and structural MRI from non-human primates (primarily macaques) across labs worldwide. Most collections download freely; a few carry a data-usage agreement, noted per collection.
+- [Marmoset Brain Mapping](https://marmosetbrainmapping.org/atlas.html) - A multi-version suite of marmoset brain resources from the Silva lab (NIH): multi-modal MRI templates, white-matter tractography atlases, awake resting-state functional connectivity, cortical surfaces, and neuronal tracing. Openly downloadable in NIfTI/GIFTI with online viewers.
+- [Marmoset Brain Connectivity Atlas](https://www.marmosetbrain.org/) - A public repository of 143 retrograde fluorescent tracer injections mapping cellular-resolution corticocortical connectivity in the marmoset, registered to a common stereotaxic space. Open under CC-BY-SA 4.0.
+- [Brain/MINDS 3D Marmoset Reference Atlas](https://dataportal.brainminds.jp/atlas-package-download-main-page) - RIKEN's 3D digital marmoset brain atlas with normalized multi-modal data (ex vivo T2 MRI, registered Nissl, cortical and subcortical segmentation) in NIfTI, with a 3D Slicer scene. Freely downloadable.
+- [Brain/MINDS Marmoset Brain MRI (NA216/eNA91)](https://dataportal.brainminds.jp/marmoset-mri-na216) - The largest public marmoset MRI resource: 483 individuals with T1/T2, diffusion, resting-state fMRI, labels, and connectome matrices in NIfTI/CSV. Open under CC-BY 4.0 via the Brain/MINDS GIN server and DataLad.
+- [Brain/MINDS Marmoset Calcium Imaging](https://dataportal.brainminds.jp/caimaging-okano-1) - In vivo one- and two-photon calcium imaging of motor-cortex populations in behaving marmosets, with raw microendoscope TIFFs, extracted time-series, and NWB files. Open under CC-BY 4.0.
+- [NMT, CHARM, SARM & D99 Macaque Atlases](https://afni.nimh.nih.gov/NMT) - The NIMH Macaque Template (NMT v2), a group template built from 31 rhesus macaques, bundled with the CHARM cortical, SARM subcortical, and D99 atlases in NIfTI/GIFTI at multiple resolutions. Freely downloadable via AFNI.
+- [Neurotycho](http://neurotycho.org/) - RIKEN's open ECoG repository: 128-channel invasive macaque recordings across awake, anesthesia, sleep, visual, and food-tracking tasks, plus simultaneous EEG/ECoG. Released as MATLAB files under CC0.
+- [TheVirtualBrain Macaque MRI (ds001875)](https://openneuro.org/datasets/ds001875) - Unprocessed structural, diffusion, and resting-state functional MRI from rhesus macaques in BIDS (~11.5 GB), supporting macaque connectome simulations. Freely downloadable from OpenNeuro under CC0.
+- [Macaque Color, Contrast & Spatial Frequency (ds005521)](https://openneuro.org/datasets/ds005521) - Functional MRI from two adult rhesus macaques probing color, contrast, and spatial-frequency tuning, in BIDS (~38.8 GB). Freely downloadable from OpenNeuro under CC0.
+- [Brain Catalogue](https://braincatalogue.org/) - An Institut Pasteur online viewer and repository of brain scans across 34 primate species, including macaque, gorilla, and chimpanzee. Viewable and downloadable as NIfTI under CC-BY-SA 3.0.
+- [Freiwald & Tsao Macaque Face-Patch Recordings](https://readout.info/downloads/datasets/freiwald-tsao-face-views-am-dataset/) - Single-unit electrophysiology from the macaque face-patch system recorded while monkeys viewed 25 identities across 8 head orientations, distributed via the Neural Decoding Toolbox. Openly downloadable (citation required).
 
 ## Rodent
 
@@ -161,6 +180,13 @@ Electron-microscopy reconstructions, wiring diagrams, and the services that quer
 - [Julich-Brain Atlas](https://julich-brain-atlas.de/) - 3D probabilistic cytoarchitectonic maps of 200+ human cortical areas and subcortical nuclei, integrating fiber architecture and receptor distributions, served via EBRAINS. Open and free.
 - [Waxholm Space Atlas of the Sprague Dawley Rat Brain](https://www.nitrc.org/projects/whs-sd-atlas) - A volumetric atlas of 222 anatomical structures delineated in isotropic MRI and DTI, the standard rat coordinate space. Open under CC BY 4.0.
 - [Scalable Brain Atlas](https://scalablebrainatlas.incf.org/) - A web platform giving interactive 2D/3D access to 20+ public brain atlas templates and parcellations across species (human, macaque, marmoset, mouse, rat, ferret), with an API. Publicly accessible.
+- [MNI ICBM152 2009 Nonlinear Templates](https://nist.mni.mcgill.ca/icbm-152-nonlinear-atlases-2009/) - The standard stereotaxic human brain templates (symmetric and asymmetric, 0.5-1 mm), the default reference space for most human neuroimaging, in MINC and NIfTI under a permissive license.
+- [fsaverage (FreeSurfer)](https://surfer.nmr.mgh.harvard.edu/fswiki/FsAverage) - The standard FreeSurfer surface-based average template for cortical surface analysis, distributed as part of the open-source FreeSurfer package.
+- [Talairach Daemon Atlas](https://www.nitrc.org/projects/tal-daemon/) - A digitized version of the classic 1988 Talairach reference atlas with a coordinate-to-label database, distributed openly via NITRC, FSL, and PickAtlas.
+- [Brainnetome Atlas](https://atlas.brainnetome.org/) - A connectivity-based parcellation of the human brain into 246 subregions with anatomical and functional connection patterns, freely downloadable in NIfTI.
+- [AAL3 Atlas](https://www.gin.cnrs.fr/en/tools/aal/) - The widely used Automated Anatomical Labeling atlas (version 3), a macroscopic parcellation of the human brain in NIfTI, released under the GNU GPL.
+- [Schaefer / Yeo Parcellations](https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal) - Resting-state functional-connectivity parcellations of the human cortex from 100 to 1000 parcels, derived from 1,489 subjects, in NIfTI, GIFTI, and CIFTI.
+- [Allen Mouse Brain Connectivity Atlas](https://connectivity.brain-map.org/) - A whole-brain mesoscale connectome of the mouse built from hundreds of anterograde AAV tracing experiments, freely accessible via web, API, and SDK.
 
 ## Gene Expression & Transcriptomics
 
@@ -174,6 +200,13 @@ Electron-microscopy reconstructions, wiring diagrams, and the services that quer
 - [CZ CELLxGENE Discover](https://cellxgene.cziscience.com/) - The largest standardized aggregation of single-cell data (44M+ human, 16M+ mouse cells), including many brain datasets, queryable via web explorer and Python/R APIs. Free; data reusable under CC BY.
 - [Tabula Muris](https://tabula-muris.sf.czbiohub.org/) - A single-cell transcriptomic compendium of ~100,000 cells across 20 mouse organs including brain tissue. Open under CC BY 4.0.
 - [Linnarsson Lab Mouse Brain Atlas](http://mousebrain.org/) - A single-cell RNA-seq atlas of the mouse nervous system (~500k cells) plus a developing-brain atlas, with a data-driven cell-type taxonomy and downloadable loom files. Freely available.
+- [Allen Developing Mouse Brain Atlas](https://developingmouse.brain-map.org/) - Genome-scale in situ hybridization gene-expression maps across embryonic and postnatal mouse brain development, freely accessible via web and API.
+- [GTEx Portal (brain)](https://gtexportal.org/home/) - Bulk RNA-seq across 13 human brain regions (plus single-nucleus data) from hundreds of postmortem donors; summary expression and TPMs are openly downloadable, with raw data under controlled access.
+- [Human Cell Atlas Data Portal](https://data.humancellatlas.org/) - The HCA's open multi-omic repository of ~70 million cells across hundreds of projects, including nervous-system datasets, with downloads in loom, h5ad, and fastq under CC BY 4.0.
+- [CZ Single Cell Portal (Broad)](https://singlecell.broadinstitute.org/single_cell) - A repository hosting over 1,000 single-cell studies and tens of millions of cells, including many brain datasets, browsable and downloadable after free registration.
+- [PsychENCODE](https://www.psychencode.org/) - Large-scale gene-expression, single-cell, spatial, and regulatory data from human postmortem brain focused on psychiatric disease, distributed via Synapse with free registration (some tiers controlled).
+- [Marmoset Gene Atlas (Brain/MINDS)](https://gene-atlas.brainminds.jp/) - Genome-wide, high-resolution in situ hybridization gene-expression data across postnatal-to-adult common marmoset brain; freely accessible for non-commercial use with attribution.
+- [STARmap PLUS Mouse CNS Atlas](https://zenodo.org/records/8327576) - A single-cell-resolution spatial transcriptomic atlas of the whole adult mouse brain and spinal cord (1.09M cells, 1,022 genes) from Shi et al. 2023, openly deposited on Zenodo.
 
 ## Standards & Tools
 
