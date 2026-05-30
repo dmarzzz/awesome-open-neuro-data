@@ -4,7 +4,30 @@ A companion to [README.md](README.md) with structured metadata for each dataset:
 
 Access legend: **open** (no gate) · **free-registration** · **data-use-agreement** · **mixed**. Sizes are approximate and, for portals and growing archives, listed as "varies".
 
-> **Status: populated category by category.** Human MRI/fMRI, Non-Human Primate, Atlases & Reference Spaces, and Gene Expression & Transcriptomics are done. The remaining categories (general archives, human EEG/MEG/iEEG/PET/fNIRS, rodent, connectomics, model organisms) are being enriched and will land in the next pass.
+> **Status: complete.** Every dataset and archive in the README has a row here, grouped by the same categories. Sizes for portals are listed as "varies".
+
+## Data Repositories & Archives
+
+| Archive | Scope | Format | Size | Access | Entry / Download |
+|---|---|---|---|---|---|
+| [DANDI Archive](https://dandiarchive.org) | cellular neurophysiology | various (NWB, BIDS) | varies | open | [link](https://dandiarchive.org/dandiset) |
+| [OpenNeuro](https://openneuro.org) | human neuroimaging (MRI/fMRI/EEG/MEG/iEEG/PET) | various (BIDS) | varies | open | [link](https://openneuro.org/search) |
+| [EBRAINS](https://www.ebrains.eu/) | general / cross-modal | various | varies | free-registration | [link](https://search.kg.ebrains.eu/) |
+| [CRCNS.org](https://crcns.org/) | cellular neurophysiology | various | varies | free-registration | [link](https://crcns.org/data-sets) |
+| [NeuroVault](https://neurovault.org/) | human statistical maps / atlases | NIfTI | varies | open | [link](https://neurovault.org/collections/) |
+| [NEMAR](https://nemar.org/) | human EEG / MEG / iEEG | BIDS | varies | open | [link](https://nemar.org/dataexplorer) |
+| [BossDB](https://bossdb.org/) | EM / connectomics / volumetric | volumetric (Zarr/cloud-volume) | >1 PB | open (tiered) | [link](https://bossdb.org/projects) |
+| [Brain Image Library (BIL)](https://www.brainimagelibrary.org/) | microscopy (light/EM) | various | varies | open | [link](https://www.brainimagelibrary.org/) |
+| [NITRC Image Repository](https://www.nitrc.org/ir/) | human neuroimaging (XNAT) | DICOM, NIfTI | varies | free-registration | [link](https://www.nitrc.org/ir/) |
+| [FCP / INDI](https://fcon_1000.projects.nitrc.org/) | human rest-fMRI / sMRI / dMRI | NIfTI, BIDS | varies | free-registration | [link](https://fcon_1000.projects.nitrc.org/fcpClassic/FcpTable.html) |
+| [LONI Image & Data Archive](https://ida.loni.usc.edu/) | human neuroimaging + clinical/genetic | NIfTI, DICOM | varies | mixed | [link](https://ida.loni.usc.edu/) |
+| [Neuroscience Multi-Omic Archive (NeMO)](https://nemoarchive.org/) | multi-omic (single-cell, epigenomic) | various | varies | mixed | [link](https://portal.nemoarchive.org/) |
+| [SPARC Portal](https://sparc.science/) | peripheral & autonomic nervous system | various | varies | open | [link](https://sparc.science/data?type=dataset) |
+| [G-Node GIN](https://gin.g-node.org/) | general / cross-modal (git-versioned) | various | varies | open | [link](https://gin.g-node.org/explore/repos) |
+| [Brain-CODE](https://www.braincode.ca/) | general / cross-modal | various | varies | mixed | [link](https://www.braincode.ca/) |
+| [BRAIN Initiative Data Archives](https://braininitiative.nih.gov/research/data-science-and-informatics/informatics-program) | directory of NIH BRAIN archives | n/a | n/a | open | [link](https://braininitiative.nih.gov/research/data-science-and-informatics/informatics-program) |
+| [OpenNeuroPET](https://openneuropet.github.io/) | human/animal PET | various (PET-BIDS) | varies | open | [link](https://openneuro.org/search/modality/pet) |
+| [DABI](https://dabi.loni.usc.edu/) | invasive neurophysiology | various | varies | mixed | [link](https://dabi.loni.usc.edu/search) |
 
 ## Human — MRI / fMRI / diffusion
 
@@ -32,6 +55,55 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [Generic Object Decoding (Kamitani)](https://openneuro.org/datasets/ds001246) | human | fMRI (task, vision) | BIDS (NIfTI) | ~20 GB | open | [link](https://openneuro.org/datasets/ds001246) |
 | [Healthy Brain Network MRI](https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/) | human | fMRI (rest/movie) / dMRI / sMRI | BIDS (NIfTI) | very large | mixed | [link](https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html) |
 
+## Human — EEG
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [Temple University Hospital EEG Corpus](https://isip.piconepress.com/projects/tuh_eeg/) | human | EEG (clinical) | EDF | varies (~1.6 TB full corpus) | free-registration | [link](https://isip.piconepress.com/projects/nedc/html/resources.shtml) |
+| [PhysioNet EEG Motor Movement/Imagery](https://physionet.org/content/eegmmidb/1.0.0/) | human | EEG | EDF+ | ~3.4 GB | open | [link](https://physionet.org/files/eegmmidb/1.0.0/) |
+| [ERP CORE](https://doi.org/10.18115/D5JW4R) | human | EEG / ERP | BIDS (EEG) | varies | open | [link](https://osf.io/thsqg/) |
+| [Healthy Brain Network EEG](https://neuromechanist.github.io/data/hbn/) | human | EEG | BIDS (EEG) | ~1.97 TB | mixed | [link](https://nemar.org/dataexplorer/detail?dataset_id=ds005505) |
+| [MPI-Leipzig LEMON](https://openneuro.org/datasets/ds000221) | human | EEG + MRI | BIDS | ~397 GB | open | [link](https://openneuro.org/datasets/ds000221) |
+| [MOABB](https://moabb.neurotechx.com/docs/dataset_summary.html) | human | EEG (BCI) | MNE objects | varies (157 datasets) | mixed | [link](https://moabb.neurotechx.com/docs/dataset_summary.html) |
+| [BNCI Horizon 2020](http://bnci-horizon-2020.eu/database/data-sets) | human | EEG (BCI) | .mat | varies (32 datasets) | open | [link](http://bnci-horizon-2020.eu/database/data-sets) |
+| [Sleep-EDF Expanded](https://physionet.org/content/sleep-edfx/1.0.0/) | human | EEG (PSG) | EDF / EDF+ | ~8.1 GB | open | [link](https://physionet.org/files/sleep-edfx/1.0.0/) |
+| [CHB-MIT Scalp EEG](https://physionet.org/content/chbmit/1.0.0/) | human | EEG (seizure) | EDF | ~42.6 GB | open | [link](https://physionet.org/files/chbmit/1.0.0/) |
+| [Broderick Natural Speech EEG](https://datadryad.org/stash/dataset/doi:10.5061/dryad.070jc) | human | EEG | .mat | varies (19 subj, 128-ch) | open | [link](https://datadryad.org/stash/dataset/doi:10.5061/dryad.070jc) |
+| [THINGS-EEG (Grootswagers)](https://openneuro.org/datasets/ds003825) | human | EEG | BIDS (EEG) | ~44 GB | open | [link](https://openneuro.org/datasets/ds003825) |
+| [THINGS-EEG2 (Gifford)](https://osf.io/3jk45/) | human | EEG | BrainVision / .npy | varies (10 subj, 64-ch) | open | [link](https://osf.io/3jk45/) |
+| [EEGEyeNet](https://osf.io/ktv7e/) | human | EEG + eye-tracking | .mat / .csv | varies (356 subj) | open | [link](https://osf.io/ktv7e/) |
+| [Nencki-Symfonia EEG/ERP](https://openneuro.org/datasets/ds004621) | human | EEG / ERP | BIDS (EEG) | ~83 GB | open | [link](https://openneuro.org/datasets/ds004621) |
+| [BCI Competition IV](https://www.bbci.de/competition/iv/) | human | EEG / MEG / ECoG (BCI) | .mat / GDF | varies | free-registration | [link](https://www.bbci.de/competition/iv/) |
+| [SRM Resting-state EEG](https://openneuro.org/datasets/ds003775) | human | EEG | BIDS (EEG) | ~4.8 GB | open | [link](https://openneuro.org/datasets/ds003775) |
+
+## Human — MEG
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [MOUS (Mother Of Unification Studies)](https://doi.org/10.34973/37n0-yc51) | human | MEG + MRI | BIDS (CTF .ds + NIfTI) | varies (204 subj) | free-registration | [link](https://data.ru.nl/collections/di/dccn/DSC_3011020.09_236) |
+| [MNE-Python Sample Datasets](https://mne.tools/stable/documentation/datasets.html) | human | MEG / EEG / MRI | .fif | ~1.5 GB | open | [link](https://mne.tools/stable/documentation/datasets.html) |
+| [OMEGA (Open MEG Archive)](https://www.mcgill.ca/bic/resources/omega) | human | MEG + MRI | BIDS (CTF .ds + NIfTI) | varies (644 subj) | data-use-agreement | [link](https://www.mcgill.ca/bic/omega-registration) |
+| [MEG-MASC (Gwilliams)](https://osf.io/ag3kj/) | human | MEG | BIDS | varies (27 subj) | open | [link](https://osf.io/ag3kj/) |
+
+## Human — Intracranial / PET / fNIRS
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [iEEG-fMRI Naturalistic Film (ds003688)](https://openneuro.org/datasets/ds003688) | human | iEEG + fMRI | BIDS | 51 iEEG + 30 fMRI subj | open (CC0) | [link](https://openneuro.org/datasets/ds003688) |
+| [Kai Miller Human ECoG Library](https://purl.stanford.edu/zk881ps0522) | human | ECoG | MATLAB | 204 datasets, 34 patients | open (CC BY-SA 4.0) | [link](https://purl.stanford.edu/zk881ps0522) |
+| [UPENN / RAM Intracranial Memory (ds004789)](https://openneuro.org/datasets/ds004789) | human | iEEG (ECoG+SEEG) | BIDS, .edf | ~871 GB, 280 subj | open (CC0) | [link](https://openneuro.org/datasets/ds004789) |
+| [DANDI 000623 (single-neuron + iEEG + fMRI)](https://dandiarchive.org/dandiset/000623) | human | iEEG + single-neuron + fMRI | NWB + BIDS | ~27.7 GB | open (CC0) | [link](https://dandiarchive.org/dandiset/000623) |
+| [IEEG.org](https://www.ieeg.org/) | human + animal | iEEG | portal / API | 1200+ datasets | free-registration | [link](https://www.ieeg.org/) |
+| [MNI Open iEEG Atlas](https://mni-open-ieegatlas.research.mcgill.ca) | human | iEEG (normative) | web / spectra | 110 patients, ~2,300 ch | free-registration | [link](https://mni-open-ieegatlas.research.mcgill.ca) |
+| [Localize-MI](https://doi.org/10.25493/NXN2-05W) | human | iEEG (SPES) + HD-EEG | BIDS | 7 subj, 61 sessions | open (CC BY 4.0) | [link](https://doi.org/10.25493/NXN2-05W) |
+| [NRM2018 PET Grand Challenge (ds001705)](https://openneuro.org/datasets/ds001705) | human | PET | PET-BIDS | 5 individuals | open (CC0) | [link](https://openneuro.org/datasets/ds001705) |
+| [Monash rsPET-fMRI (ds002898)](https://openneuro.org/datasets/ds002898) | human | PET (18F-FDG) + fMRI | PET-BIDS | 27 controls | open (CC0) | [link](https://openneuro.org/datasets/ds002898) |
+| [First-in-human PS13 COX-1 PET (ds004230)](https://openneuro.org/datasets/ds004230) | human | PET (11C-PS13) | PET-BIDS | varies | open (CC0) | [link](https://openneuro.org/datasets/ds004230) |
+| [Tufts fNIRS2MW](https://tufts-hci-lab.github.io/code_and_datasets/fNIRS2MW.html) | human | fNIRS | CSV | 68 subjects | open (CC BY 4.0) | [link](https://tufts-hci-lab.github.io/code_and_datasets/fNIRS2MW.html) |
+| [HD-DOT Ball-Squeezing fNIRS (ds005930)](https://openneuro.org/datasets/ds005930) | human | fNIRS | BIDS + SNIRF | varies | open (CC0) | [link](https://openneuro.org/datasets/ds005930) |
+| [fNIRS Motion-Artifact (ds005929)](https://openneuro.org/datasets/ds005929) | human | fNIRS | BIDS + SNIRF | varies | open (CC0) | [link](https://openneuro.org/datasets/ds005929) |
+| [Finger-Tapping fNIRS (ds005776)](https://openneuro.org/datasets/ds005776) | human | fNIRS | BIDS + SNIRF | varies | open (CC0) | [link](https://openneuro.org/datasets/ds005776) |
+
 ## Non-Human Primate
 
 | Dataset | Species | Modality | Format | Size | Access | Download |
@@ -48,6 +120,80 @@ Access legend: **open** (no gate) · **free-registration** · **data-use-agreeme
 | [Macaque Color/Contrast/SF (ds005521)](https://openneuro.org/datasets/ds005521) | macaque | fMRI | BIDS / NIfTI | ~38.8 GB | open (CC0) | [link](https://openneuro.org/datasets/ds005521) |
 | [Brain Catalogue](https://braincatalogue.org/) | 34 primate species | atlas / MRI | NIfTI | 34 species | open (CC-BY-SA 3.0) | [link](https://braincatalogue.org/) |
 | [Freiwald & Tsao Face-Patch](https://readout.info/downloads/datasets/freiwald-tsao-face-views-am-dataset/) | macaque | electrophysiology (single-unit) | MATLAB / CSV / R | 3 monkeys | open (citation required) | [link](https://readout.info/downloads/datasets/freiwald-tsao-face-views-am-dataset/) |
+
+## Rodent
+
+| Dataset | Species | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [OpenScope](https://www.allenneuraldynamics.org/projects/openscope) | mouse | Neuropixels / 2-photon | NWB | varies (multi-TB) | open | [link](https://dandiarchive.org/) |
+| [IBL Brain-Wide Map](https://www.internationalbrainlab.com/data) | mouse | Neuropixels | ONE/ALF, NWB | ~50 TB (DANDI 000409) | open (CC-BY) | [link](https://dandiarchive.org/dandiset/000409) |
+| [Allen Visual Coding - Neuropixels](https://brain-map.org/circuits-behavior/visual-coding-neuropixels) | mouse | Neuropixels | NWB | ~146 GB (~100k neurons) | open | [link](https://allensdk.readthedocs.io/en/latest/visual_coding_neuropixels.html) |
+| [Steinmetz et al. 2019](https://figshare.com/articles/dataset/Dataset_from_Steinmetz_et_al_2019/9598406) | mouse | Neuropixels | .mat (also NWB) | ~30k neurons, 39 sessions | open | [link](https://figshare.com/articles/dataset/Dataset_from_Steinmetz_et_al_2019/9598406) |
+| [CRCNS hc-3 (Buzsaki Hippocampus)](https://crcns.org/data-sets/hc/hc-3) | rat | silicon-probe | binary (.dat/.eeg) in tar.gz | ~433 GB | free-registration | [link](https://crcns.org/data-sets/hc/hc-3) |
+| [Buzsaki Lab Databank](https://buzsakilab.com/wp/database/) | rat / mouse | silicon-probe | NWB, binary | ~40 TB | open | [link](https://buzsakilab.nyumc.org/datasets/) |
+| [Svoboda / Janelia ALM-1](https://crcns.org/data-sets/motor-cortex/alm-1) | mouse | silicon-probe | .mat | varies | free-registration | [link](https://crcns.org/data-sets/motor-cortex/alm-1) |
+| [AIND Open Data](https://registry.opendata.aws/allen-nd-open-data/) | mouse | Neuropixels / 2p / photometry | NWB | varies (growing) | open (CC-BY-4.0) | [link](https://aind-open-data.s3.amazonaws.com/index.html) |
+| [Neuropixels Ultra](https://npultra.steinmetzlab.net/) | mouse | Neuropixels | .mat / NWB | varies | open | [link](https://figshare.com/collections/_/19493588) |
+| [UCL Cortexlab Data](https://www.ucl.ac.uk/cortexlab/data) | mouse | Neuropixels / widefield | .mat, NPY, ONE/ALF | varies | open | [link](https://figshare.com/projects/_/41200) |
+| [Allen Brain Observatory - Visual Coding 2P](https://observatory.brain-map.org/visualcoding) | mouse | 2-photon | NWB | ~63k neurons | open | [link](https://observatory.brain-map.org/visualcoding) |
+| [Allen Visual Behavior - 2P](https://brain-map.org/circuits-behavior/visual-behavior-2p) | mouse | 2-photon | NWB | 34,619 neurons, 551 sessions | open | [link](https://allensdk.readthedocs.io/en/latest/visual_behavior_optical_physiology.html) |
+| [Stringer & Pachitariu Spontaneous](https://janelia.figshare.com/articles/dataset/Recordings_of_ten_thousand_neurons_in_visual_cortex_during_spontaneous_behaviors/6163622) | mouse | 2-photon | .mat | ~11.8 GB (~10k neurons) | open | [link](https://janelia.figshare.com/articles/dataset/Recordings_of_ten_thousand_neurons_in_visual_cortex_during_spontaneous_behaviors/6163622) |
+| [Allen Visual Behavior - Neuropixels](https://brain-map.org/circuits-behavior/visual-behavior-neuropixels) | mouse | Neuropixels | NWB | ~200k units, 153 sessions | open | [link](https://allensdk.readthedocs.io/en/latest/visual_behavior_neuropixels.html) |
+| [CRCNS hc-23 (MEC grid cells)](https://crcns.org/data-sets/hc/hc-23) | rat | silicon-probe | .mat (figshare) | 6 rats | free-registration | [link](https://crcns.org/data-sets/hc/hc-23) |
+| [CRCNS hc-11 (CA1 spatial learning)](https://crcns.org/data-sets/hc/hc-11) | rat | silicon-probe | binary / .mat | varies | free-registration | [link](https://crcns.org/data-sets/hc/hc-11) |
+| [CRCNS hc-2 (Buzsaki open-field)](https://crcns.org/data-sets/hc/hc-2) | rat | silicon-probe | binary / .mat | varies | free-registration | [link](https://crcns.org/data-sets/hc/hc-2) |
+| [CRCNS ssc-1 (barrel cortex 2P)](https://crcns.org/data-sets/ssc/ssc-1) | mouse | 2-photon | NERSC-hosted | varies | free-registration | [link](https://crcns.org/data-sets/ssc/ssc-1) |
+| [CRCNS ssc-2 (volumetric 2P)](https://crcns.org/data-sets/ssc/ssc-2) | mouse | 2-photon | NERSC-hosted | ~12,000 neurons/mouse | free-registration | [link](https://crcns.org/data-sets/ssc/ssc-2) |
+| [jGCaMP8 V1 (DANDI 000168)](https://dandiarchive.org/dandiset/000168) | mouse | 2-photon + cell-attached | NWB | ~1.38 TB | open (CC-BY-4.0) | [link](https://dandiarchive.org/dandiset/000168) |
+
+## Other Model Organisms
+
+| Dataset | Organism | Modality | Format | Size | Access | Download |
+|---|---|---|---|---|---|---|
+| [Larval Zebrafish Light-Sheet (Chen 2018)](https://janelia.figshare.com/articles/dataset/Whole-brain_light-sheet_imaging_data/7272617) | zebrafish (larval) | light-sheet calcium | TIFF/MAT in ZIP | ~59.8 GB | open (CC BY-NC 4.0) | [link](https://janelia.figshare.com/articles/dataset/Whole-brain_light-sheet_imaging_data/7272617) |
+| [Janelia Whole-Brain Recordings (Ahrens 2013)](https://www.janelia.org/open-science/whole-brain-functional-recordings) | zebrafish (larval) | light-sheet calcium | software + recordings | unknown | open | [link](https://www.janelia.org/open-science/whole-brain-functional-recordings) |
+| [mapzebrain](https://mapzebrain.org/home) | zebrafish (larval) | atlas | NIfTI / OBJ / SWC | varies | open | [link](https://mapzebrain.org/home) |
+| [Z-Brain](https://zebrafishexplorer.zib.de/) | zebrafish (larval) | atlas | HDF5 / image stacks | varies | open | [link](https://zebrafishexplorer.zib.de/) |
+| [Zebrafish Brain Browser](https://zenodo.org/records/3367709) | zebrafish (larval) | atlas | NIfTI | ~4.1 GB | open (CC BY 4.0) | [link](https://zenodo.org/records/3367709) |
+| [WormID Whole-Brain Corpus](https://wormid.org/) | C. elegans | light-sheet calcium / atlas | NWB | varies (213 worms, 5 labs) | open | [link](https://wormid.org/datasets) |
+| [Kato et al. 2015](https://osf.io/2395t/) | C. elegans | light-sheet calcium | MATLAB (.mat) | ~145 MB | open | [link](https://osf.io/2395t/files/) |
+| [NeuroPAL](https://www.hobertlab.org/neuropal/) | C. elegans | calcium / atlas | NWB | ~18 GB (DANDI 000472) | open | [link](https://dandiarchive.org/dandiset/000472) |
+| [OpenWorm](https://openworm.org/) | C. elegans | model / connectome | NeuroML / code | varies | open (MIT) | [link](https://github.com/openworm) |
+| [Tracking Neurons in a Moving Brain (Nguyen/Leifer 2016)](https://ieee-dataport.org/open-access/tracking-neurons-moving-and-deforming-brain-dataset) | C. elegans | light-sheet calcium | binary / AVI / MAT | ~328 GB | free-registration | [link](https://ieee-dataport.org/open-access/tracking-neurons-moving-and-deforming-brain-dataset) |
+| [Brain-wide Behavior Representations (Flavell 2023)](https://dandiarchive.org/dandiset/000776) | C. elegans | light-sheet calcium | NWB | ~1.01 TB | open (CC BY 4.0) | [link](https://dandiarchive.org/dandiset/000776) |
+| [NeuroPAL + Immobilized Calcium (Kato lab)](https://dandiarchive.org/dandiset/000565) | C. elegans | light-sheet calcium | NWB | ~46.3 GB | open (CC BY 4.0) | [link](https://dandiarchive.org/dandiset/000565) |
+| [OpenWorm Movement Database](https://zenodo.org/communities/open-worm-movement-database/) | C. elegans | behavioral tracking | WCON (JSON) / HDF5 / video | varies (14,874 experiments) | open (CC BY) | [link](https://zenodo.org/communities/open-worm-movement-database/) |
+| [Drosophila Whole-Brain Functional Imaging (Aimon/Mann 2017)](https://data.mendeley.com/datasets/8b6nw2xxhn/1) | Drosophila (adult) | 2-photon calcium | NIfTI / TIFF in ZIP | ~3.85 GB | open (CC BY 4.0) | [link](https://data.mendeley.com/datasets/8b6nw2xxhn/1) |
+| [Whole-Body Neural Activity in Hydra (Hanson 2024)](https://datadryad.org/landing/show?id=doi:10.5061/dryad.h9w0vt4q3) | Hydra vulgaris | 2-photon calcium | AVI video | ~1.43 GB | open (CC0) | [link](https://datadryad.org/landing/show?id=doi:10.5061/dryad.h9w0vt4q3) |
+| [Chronic HVC Recordings in Zebra Finches](https://figshare.com/articles/dataset/Chronic_Recording_of_HVC_in_Free_Behaving_Zebra_FInch_with_Behaviors_Hand_Annotated/15094219) | zebra finch (songbird) | electrophysiology | data + audio in ZIP | ~2.8 GB | open (CC BY 4.0) | [link](https://figshare.com/articles/dataset/Chronic_Recording_of_HVC_in_Free_Behaving_Zebra_FInch_with_Behaviors_Hand_Annotated/15094219) |
+| [CRCNS aa-2 (Avian Auditory)](https://crcns.org/data-sets/aa/aa-2) | zebra finch (songbird) | electrophysiology | spike times + WAV | ~180 MB | free-registration | [link](https://portal.nersc.gov/project/crcns/download/aa-2) |
+| [CRCNS apl-1 (Aplysia)](https://crcns.org/data-sets/aplysia/apl-1) | Aplysia californica | voltage-sensitive-dye imaging | MATLAB / TXT | ~6.5 GB | free-registration | [link](https://portal.nersc.gov/project/crcns/download/apl-1) |
+
+## Connectomics — EM Reconstructions
+
+| Dataset | Species | What reconstructed | Format | Approx size | Access | Download |
+|---|---|---|---|---|---|---|
+| [FlyWire](https://flywire.ai) | *Drosophila* (adult female) | whole-brain connectome (~139K neurons, 50M+ synapses) | Neuroglancer precomputed + CAVE; CSV connectivity (Codex) | volume varies (TB-scale EM); connectivity ~GB | free-registration (CAVE/Google login for queries) | [link](https://codex.flywire.ai/) |
+| [MICrONS (cortical mm³)](https://www.microns-explorer.org/cortical-mm3) | mouse (visual cortex, P87) | ~200K cells, ~523M synapses, co-registered 2-photon | Neuroglancer precomputed + CAVE; AWS/GCP buckets | multi-TB | open (Neuroglancer); free-registration for CAVE | [link](https://ngl.microns-explorer.org) |
+| [H01 (Human Cortex 1mm³)](https://h01-release.storage.googleapis.com/landing.html) | human (temporal cortex) | ~tens of thousands of neurons, 183M synapses | Neuroglancer precomputed | ~1.4 PB | open | [link](https://h01-release.storage.googleapis.com/landing.html) |
+| [FAFB (Full Adult Fly Brain)](https://temca2data.org/) | *Drosophila* (adult) | whole-brain ssEM volume (synaptic resolution) | CATMAID (Neuroglancer via VFB) | ~TB-scale | open; non-commercial (CC BY-NC 4.0) | [link](https://fafb.catmaid.virtualflybrain.org/) |
+| [Janelia Hemibrain](https://www.janelia.org/project-team/flyem/hemibrain) | *Drosophila* (adult) | central-brain connectome (~25K neurons) | Neo4j (neuPrint) + CSV adjacency; Neuroglancer | connectivity ~GB | open (CC-BY 4.0) | [link](https://storage.cloud.google.com/hemibrain/v1.2/exported-traced-adjacencies-v1.2.tar.gz) |
+| [Male CNS Connectome](https://www.janelia.org/project-team/flyem/male-cns-connectome) | *Drosophila* (adult male) | complete CNS connectome (brain + optic lobes + VNC) | Neo4j (neuPrint); Neuroglancer; flat-file download | varies | open (CC-BY 4.0) | [link](https://janelia-flyem.github.io/male-cns/download/) |
+| [MANC (Male Adult Nerve Cord)](https://www.janelia.org/project-team/flyem/manc-connectome) | *Drosophila* (adult male) | VNC connectome (~23K neurons, 10M pre / 74M post sites) | Neo4j (neuPrint); Neuroglancer; flat files | connectivity ~GB | open (CC-BY 4.0) | [link](https://console.cloud.google.com/storage/browser/flyem-manc-exports) |
+| [Larval Drosophila Connectome](https://github.com/brain-networks/larval-drosophila-connectome) | *Drosophila* (larva) | whole-brain connectome (3,016 neurons, ~548K synapses; Winding 2023) | CSV / adjacency matrices (zip) | CSV (MB) | open | [link](https://github.com/brain-networks/larval-drosophila-connectome) |
+| [C. elegans Connectome (WormWiring)](https://www.wormwiring.org/) | *C. elegans* (+ *P. pacificus*) | White 1986 + Cook 2019 whole-animal connectomes | Excel / CSV (connectivity) | CSV (MB) | open | [link](https://www.wormwiring.org/) |
+| [Larval Zebrafish Whole-Brain EM (Hildebrand 2017)](https://neurodata.io/data/hildebrand17/) | larval zebrafish | anterior-quarter ssEM; myelinated projectome | Neuroglancer precomputed | TB-scale | open (ODC-By v1.0) | [link](https://neurodata.io/data/hildebrand17/) |
+| [Eyewire / e2198 Mouse Retina](https://blog.eyewire.org/behind-the-science-about-the-data/) | mouse (retina) | citizen-science neuron reconstructions from e2198 SBEM | meshes / skeletons (GitHub) | varies | open | [link](https://blog.eyewire.org/behind-the-science-about-the-data/) |
+| [neuPrint](https://neuprint.janelia.org/) | *Drosophila* (multiple) | connectome graph query service (hemibrain, MANC, maleCNS, optic-lobe) | Neo4j (Cypher / Python / R) | varies | open; Google login for full queries | [link](https://neuprint.janelia.org/) |
+| [FlyEM Optic Lobe](https://www.janelia.org/project-team/flyem/optic-lobe) | *Drosophila* (adult male) | right optic lobe connectome (>50K neurons, >700 cell types; Nern 2025) | Neo4j (neuPrint); Neuroglancer; flat files | connectivity ~GB | open (CC-BY 4.0) | [link](https://neuprint.janelia.org/?dataset=optic-lobe:v1.0) |
+| [FANC (Female Adult Nerve Cord)](https://github.com/htem/FANC_auto_recon) | *Drosophila* (adult female) | VNC ssEM + segmentation (GridTape-TEM) | Neuroglancer (BossDB) + CAVE | TB-scale | mixed (EM open on BossDB; segmentation via community join) | [link](https://github.com/htem/FANC_auto_recon/wiki) |
+| [Kasthuri et al. 2015](https://neurodata.io/data/kasthuri15/) | mouse (neocortex) | saturated reconstruction of a sub-volume (all cellular objects) | Neuroglancer precomputed (BossDB) | ~660 GB | open | [link](https://bossdb.org/project/kasthuri2015) |
+| [CREMI Challenge](https://cremi.org/) | *Drosophila* (adult) | ssEM volumes w/ neuron + synaptic-partner ground truth (from FAFB) | HDF5 | ~33 GB (2017 release) | open | [link](https://cremi.org/data/) |
+| [SNEMI3D Challenge](https://snemi3d.grand-challenge.org/) | mouse (neocortex) | ssSEM stacks w/ neurite segmentation ground truth | image stacks (TIFF) | small (2× 100× 1024² slices) | free-registration (also on Zenodo) | [link](https://zenodo.org/records/7142003) |
+| [Ciona Larva Connectome (Ryan 2016)](https://elifesciences.org/articles/16962) | *Ciona intestinalis* (tadpole larva) | whole-CNS connectome (177 neurons, 6,618 synapses) | Excel (connectivity matrices, supp. data) | CSV (MB) | open (CC BY) | [link](https://elifesciences.org/articles/16962/figures) |
+| [Fish1 (Larval Zebrafish Whole-Brain EM)](https://fish1-release.storage.googleapis.com/index.html) | larval zebrafish (7 dpf) | whole-brain ssEM (>187K somata, ~30M synapses; 4×4×30 nm) | Neuroglancer precomputed + CAVE | PB-scale (varies) | mixed (open browsing; free-registration to edit) | [link](https://fish1-release.storage.googleapis.com/index.html) |
+| [C. elegans Developmental Connectome (Witvliet 2021)](https://www.nature.com/articles/s41586-021-03778-8) | *C. elegans* (8 brains across development) | full-brain connectomes across postnatal stages (ssEM) | CSV / Python / MATLAB (connectivity) | CSV (MB) | open | [link](https://github.com/dwitvliet/nature2021) |
+| [Zebrafish Olfactory Bulb (Wanner 2016)](https://neurodata.io/data/wanner16/) | larval zebrafish (olfactory bulb) | dense reconstruction of 1,022 neurons (~98% of OB) | Neuroglancer precomputed (BossDB); skeletons | varies | open (ODC-By v1.0) | [link](https://neurodata.io/data/wanner16/) |
 
 ## Atlases & Reference Spaces
 
